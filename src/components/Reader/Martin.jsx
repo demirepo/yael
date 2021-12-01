@@ -1717,10 +1717,9 @@ export default function Martin() {
           Yet the huge man at the head of the column, flanked by two knights in
           the snow-white cloaks of the Kingsguard, seemed almost a stranger to
           Ned … until he vaulted off the back of his warhorse with a familiar
-          roar, and crushed him in a bone-crunching hug.{" "}
-          <emphasis>“Ned!</emphasis> Ah, but it is good to see that frozen face
-          of yours.” The king looked him over top to bottom, and laughed. “You
-          have not changed at all.”
+          roar, and crushed him in a bone-crunching hug. “Ned! Ah, but it is
+          good to see that frozen face of yours.” The king looked him over top
+          to bottom, and laughed. “You have not changed at all.”
         </p>
         <p>
           Would that Ned had been able to say the same. Fifteen years past, when
@@ -1793,9 +1792,9 @@ export default function Martin() {
           “Kings are a rare sight in the north.”
         </p>
         <p>
-          Robert snorted. “More likely they were hiding under the snow.{" "}
-          <emphasis>Snow</emphasis>, Ned!” The king put one hand on the wall to
-          steady himself as they descended.
+          Robert snorted. “More likely they were hiding under the snow. Snow,
+          Ned!” The king put one hand on the wall to steady himself as they
+          descended.
         </p>
         <p>
           “Late summer snows are common enough,” Ned said. “I hope they did not

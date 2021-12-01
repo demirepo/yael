@@ -1,0 +1,17 @@
+.toolbar {
+  display: flex;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: auto;
+  background-color: #fff;
+  padding: 15px;
+}
+
+.button {
+  align-self: center;
+  display: block;
+  font-size: 25px;
+  padding: 10px 15px;
+}
