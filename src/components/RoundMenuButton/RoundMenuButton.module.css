@@ -1,0 +1,42 @@
+/* .wrapper {
+  width: 120px;
+  height: 120px;
+  position: fixed;
+  right: 0px;
+  bottom: 0px;
+  background-color: transparent;
+} */
+
+.circle {
+  display: flex;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+  background-color: #fff;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all 0.2s ease-out;
+  font-size: 1rem;
+  line-height: 60px;
+  text-align: center;
+  border: none;
+}
+
+.move1 {
+  bottom: 100px;
+}
+
+.move2 {
+  bottom: 170px;
+}
+
+.move3 {
+  bottom: 240px;
+}
+
+.circle:hover {
+  transform: scale(1.2);
+}

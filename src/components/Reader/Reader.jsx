@@ -3,12 +3,17 @@ import style from "./Reader.module.css";
 import Martin from "./Martin";
 import ContextModal from "../ContextModal/ContextModal";
 import { useSelector } from "react-redux";
+import Settings from "../Settings/Settings";
 
 export default function Reader() {
-  const showModal = useSelector((state) => state.modal.showModal);
+  const showContextModal = useSelector((state) => state.modal.showContextModal);
+  const showSettingsModal = useSelector(
+    (state) => state.modal.showSettingsModal
+  );
   return (
     <main className={style.reader}>
-      {showModal && <ContextModal />}
+      {showContextModal && <ContextModal />}
+      {showSettingsModal && <Settings />}
       <Martin />
     </main>
   );

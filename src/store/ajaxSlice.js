@@ -1,17 +1,17 @@
 import { createSlice } from "@reduxjs/toolkit";
-import * as session from "./credentials";
 
 const ajaxSlice = createSlice({
   name: "ajax",
 
   initialState: {
-    sid: session.sid,
-    yu: session.yu,
-    yum: session.yum,
+    sid: process.env.REACT_APP_SID,
+    yu: process.env.REACT_APP_YU,
+    yum: process.env.REACT_APP_YUM,
   },
 
   reducers: {
     setSession: (state, action) => {
+      console.log(action.payload.sid);
       state.sid = action.payload.sid;
       state.yu = action.payload.yu;
       state.yum = action.payload.yum;

@@ -4,12 +4,23 @@ import { createSlice } from "@reduxjs/toolkit";
 const modalSlice = createSlice({
   name: "modal",
   initialState: {
-    showModal: false,
+    showContextModal: false,
+    showSettingsModal: false,
+    buttonMenu: false,
     word: {},
   },
   reducers: {
-    toggleModal: (state) => {
-      state.showModal = state.showModal ? false : true;
+    toggleContextModal: (state) => {
+      state.showContextModal = state.showContextModal ? false : true;
+    },
+    toggleSettingsModal: (state) => {
+      state.showSettingsModal = state.showSettingsModal ? false : true;
+    },
+    activateButtonMenu: (state) => {
+      state.buttonMenu = state.buttonMenu = true;
+    },
+    deactivateButtonMenu: (state) => {
+      state.buttonMenu = state.buttonMenu = false;
     },
     setTrans: (state, action) => {
       state.word.examples = action.payload;
@@ -18,11 +29,17 @@ const modalSlice = createSlice({
 });
 
 export const { actions, reducer } = modalSlice;
-export const { toggleModal, setTrans } = actions;
+export const {
+  toggleSettingsModal,
+  toggleContextModal,
+  activateButtonMenu,
+  deactivateButtonMenu,
+  setTrans,
+} = actions;
 export default reducer;
 
 export const dictLookup = (text, sid, yu, yum) => async (dispatch) => {
-  const response = await wordApi.getTrans(text, sid, yu, yum);
-  dispatch(setTrans(response));
-  console.log(response);
+  const data = await wordApi.getTrans(text, sid, yu, yum);
+  dispatch(setTrans(data));
+  console.log(data);
 };
