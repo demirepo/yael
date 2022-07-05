@@ -2,14 +2,17 @@ import React from 'react';
 import Container from '@mui/material/Container';
 import { Button, Chip, Grid, Stack, TextField } from '@mui/material';
 import { useDispatch } from 'react-redux';
-import { getTranslationThunk } from '../store/dictSlice';
+import { getTranslationThunk } from '../../store/dictSlice';
 import { useSelector } from 'react-redux';
-import { getExamplesThunk } from './../store/dictSlice';
+import { getExamplesThunk } from '../../store/dictSlice';
 import Typography from '@mui/material/Typography';
+import { getHighlightedFragment } from '../../helpers/getHighlighted';
+import SearchInput from './SearchInput';
 
-const Main = () => {
+const Search = () => {
   const [query, setQuery] = React.useState('');
-  const [selectedChip, setSelectedChip] = React.useState(0);
+  const [show, setShow] = React.useState(10);
+  const [selectedChip, setSelectedChip] = React.useState(-1);
 
   const dispatch = useDispatch();
 
@@ -19,7 +22,10 @@ const Main = () => {
     return { sid: state.ajax.sid, yu: state.ajax.yu, yum: state.ajax.yum };
   });
 
+  const examplesRef = React.useRef();
+
   const handleClick = () => {
+    if (query === '') return;
     dispatch(getTranslationThunk(query, session));
     dispatch(getExamplesThunk(query, session));
   };
@@ -28,6 +34,19 @@ const Main = () => {
     setSelectedChip(+e.target.closest('.MuiChip-root').id);
   };
 
+  const showExamples = examples.examples && examples.examples.length !== 0;
+
+  React.useEffect(() => {
+    const examples = examplesRef.current.children;
+    if (examples) {
+      for (let example of examples) {
+        for (let el of example.children) {
+          el.innerHTML = getHighlightedFragment(el.innerText);
+        }
+      }
+    }
+  });
+
   return (
     <Container
       maxWidth='md'
@@ -35,75 +54,57 @@ const Main = () => {
         display: 'flex',
         flexDirection: 'column',
         justifyContent: 'center',
-        // alignItems: 'center',
-        // height: '100vh',
         mt: '50px',
-        mb: '50px',
       }}
     >
-      <Grid
-        component={'form'}
-        onSubmit={(e) => {
-          e.preventDefault();
-          handleClick();
-        }}
-        sx={{ display: 'flex', alignContent: 'center' }}
-      >
-        <TextField
-          value={query}
-          fullWidth
-          onChange={(e) => setQuery(e.target.value)}
-          helperText={'Введите слово для перевода'}
-          autoComplete='off'
-        ></TextField>
-        <Button
-          sx={{ alignSelf: 'start', padding: '16.5px' }}
-          onClick={handleClick}
-        >
-          Перевести
-        </Button>
-      </Grid>
+      <SearchInput
+        query={query}
+        setQuery={setQuery}
+        handleClick={handleClick}
+      />
       <Stack>
-        <Grid gap={'10px'}>
-          {examples.examples && (
+        <Grid mb={4} gap={'10px'}>
+          {showExamples && (
             <Chip
               item='true'
-              id={0}
+              id={-1}
               label={'Все'}
-              key={'other'}
-              variant={selectedChip === 0 ? 'filled' : 'outlined'}
+              key={'all-translations'}
+              variant={selectedChip === -1 ? 'filled' : 'outlined'}
               sx={{ cursor: 'pointer' }}
               onClick={selectChip}
             />
           )}
 
-          {examples.tabs &&
+          {showExamples &&
             examples.tabs.map((el, index) => {
               return (
                 <Chip
                   item='true'
-                  id={index + 1}
+                  id={index}
                   label={
-                    el.translation.text
-                      ? el.translation.text
-                      : 'прочие переводы'
+                    el.translation.other
+                      ? 'другие переводы'
+                      : el.translation.idiom
+                      ? 'идиомы'
+                      : el.translation.text
                   }
-                  key={el.index + 1}
-                  variant={selectedChip === index + 1 ? 'filled' : 'outlined'}
+                  key={el.index}
+                  variant={selectedChip === index ? 'filled' : 'outlined'}
                   sx={{ cursor: 'pointer' }}
                   onClick={selectChip}
                 />
               );
             })}
         </Grid>
-        <ul style={{ listStyle: 'none' }}>
-          {examples.examples &&
+        <ul key={'examples'} ref={examplesRef} style={{ listStyle: 'none' }}>
+          {showExamples &&
             examples.examples
-              .filter((el) => {
-                if (selectedChip === 0) {
+              .filter((el, index) => {
+                if (selectedChip === -1 && index <= show) {
                   return 1;
                 } else {
-                  return el.tabIndex + 1 === selectedChip;
+                  return el.tabIndex === selectedChip && index <= show;
                 }
               })
               .map((item) => {
@@ -117,9 +118,14 @@ const Main = () => {
                 );
               })}
         </ul>
+        {showExamples && (
+          <Button variant='contained' onClick={() => setShow(show + 10)}>
+            Показать еще
+          </Button>
+        )}
       </Stack>
     </Container>
   );
 };
 
-export default Main;
+export default Search;
