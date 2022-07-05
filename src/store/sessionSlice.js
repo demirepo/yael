@@ -1,7 +1,7 @@
-import { createSlice } from "@reduxjs/toolkit";
+import { createSlice } from '@reduxjs/toolkit';
 
 const ajaxSlice = createSlice({
-  name: "ajax",
+  name: 'ajax',
 
   initialState: {
     sid: process.env.REACT_APP_SID,
@@ -11,7 +11,6 @@ const ajaxSlice = createSlice({
 
   reducers: {
     setSession: (state, action) => {
-      console.log(action.payload.sid);
       state.sid = action.payload.sid;
       state.yu = action.payload.yu;
       state.yum = action.payload.yum;

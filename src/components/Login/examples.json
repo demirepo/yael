@@ -1,0 +1,1934 @@
+{
+  "result": {
+    "tabs": [
+      {
+        "pos": { "code": "adj", "text": "прил", "tooltip": "прилагательное" },
+        "text": "splendid",
+        "translation": {
+          "pos": { "code": "adj", "text": "прил", "tooltip": "прилагательное" },
+          "text": "великолепный"
+        }
+      },
+      {
+        "pos": { "code": "adj", "text": "прил", "tooltip": "прилагательное" },
+        "text": "splendid",
+        "translation": {
+          "pos": { "code": "adj", "text": "прил", "tooltip": "прилагательное" },
+          "text": "роскошный"
+        }
+      },
+      {
+        "pos": { "code": "adj", "text": "прил", "tooltip": "прилагательное" },
+        "text": "splendid",
+        "translation": {
+          "pos": { "code": "adj", "text": "прил", "tooltip": "прилагательное" },
+          "text": "пышный"
+        }
+      },
+      {
+        "pos": { "code": "adj", "text": "прил", "tooltip": "прилагательное" },
+        "text": "splendid",
+        "translation": {
+          "pos": { "code": "adj", "text": "прил", "tooltip": "прилагательное" },
+          "text": "величественный"
+        }
+      },
+      {
+        "pos": { "code": "adj", "text": "прил", "tooltip": "прилагательное" },
+        "text": "splendid",
+        "translation": {
+          "pos": { "code": "adj", "text": "прил", "tooltip": "прилагательное" },
+          "text": "прекрасный"
+        }
+      },
+      {
+        "pos": { "code": "adj", "text": "прил", "tooltip": "прилагательное" },
+        "text": "splendid",
+        "translation": {
+          "pos": { "code": "adj", "text": "прил", "tooltip": "прилагательное" },
+          "text": "замечательный"
+        }
+      },
+      {
+        "pos": { "code": "adj", "text": "прил", "tooltip": "прилагательное" },
+        "text": "splendid",
+        "translation": {
+          "pos": { "code": "adj", "text": "прил", "tooltip": "прилагательное" },
+          "text": "шикарный"
+        }
+      },
+      {
+        "pos": { "code": "adj", "text": "прил", "tooltip": "прилагательное" },
+        "text": "splendid",
+        "translation": {
+          "pos": { "code": "adj", "text": "прил", "tooltip": "прилагательное" },
+          "text": "изумительный"
+        }
+      },
+      {
+        "pos": { "code": "adj", "text": "прил", "tooltip": "прилагательное" },
+        "text": "splendid",
+        "translation": {
+          "pos": { "code": "adj", "text": "прил", "tooltip": "прилагательное" },
+          "text": "великолепнейший"
+        }
+      },
+      {
+        "pos": { "code": "adj", "text": "прил", "tooltip": "прилагательное" },
+        "text": "splendid",
+        "translation": {
+          "pos": { "code": "adj", "text": "прил", "tooltip": "прилагательное" },
+          "text": "превосходный"
+        }
+      },
+      {
+        "pos": { "code": "adj", "text": "прил", "tooltip": "прилагательное" },
+        "text": "splendid",
+        "translation": {
+          "pos": { "code": "adj", "text": "прил", "tooltip": "прилагательное" },
+          "text": "отличный"
+        }
+      },
+      {
+        "pos": { "code": "adj", "text": "прил", "tooltip": "прилагательное" },
+        "text": "splendid",
+        "translation": {
+          "pos": { "code": "adj", "text": "прил", "tooltip": "прилагательное" },
+          "text": "отменный"
+        }
+      },
+      {
+        "pos": { "code": "adj", "text": "прил", "tooltip": "прилагательное" },
+        "text": "splendid",
+        "translation": {
+          "pos": { "code": "adj", "text": "прил", "tooltip": "прилагательное" },
+          "text": "блестящий"
+        }
+      },
+      {
+        "pos": { "code": "adj", "text": "прил", "tooltip": "прилагательное" },
+        "text": "splendid",
+        "translation": {
+          "pos": { "code": "adj", "text": "прил", "tooltip": "прилагательное" },
+          "text": "блистательный"
+        }
+      },
+      {
+        "pos": { "code": "adj", "text": "прил", "tooltip": "прилагательное" },
+        "text": "splendid",
+        "translation": {
+          "pos": { "code": "adj", "text": "прил", "tooltip": "прилагательное" },
+          "text": "восхитительный"
+        }
+      },
+      {
+        "pos": { "code": "adj", "text": "прил", "tooltip": "прилагательное" },
+        "text": "splendid",
+        "translation": {
+          "pos": { "code": "adj", "text": "прил", "tooltip": "прилагательное" },
+          "text": "славный"
+        }
+      },
+      {
+        "pos": { "code": "adj", "text": "прил", "tooltip": "прилагательное" },
+        "text": "splendid",
+        "translation": {
+          "pos": { "code": "adj", "text": "прил", "tooltip": "прилагательное" },
+          "text": "великолепно"
+        }
+      },
+      {
+        "pos": { "code": "adj", "text": "прил", "tooltip": "прилагательное" },
+        "text": "splendid",
+        "translation": {
+          "pos": { "code": "adj", "text": "прил", "tooltip": "прилагательное" },
+          "text": "чудесный"
+        }
+      },
+      {
+        "pos": { "code": "adj", "text": "прил", "tooltip": "прилагательное" },
+        "text": "splendid",
+        "translation": {
+          "pos": { "code": "adv", "text": "нареч", "tooltip": "наречие" },
+          "text": "чудесно"
+        }
+      },
+      {
+        "pos": { "code": "adj", "text": "прил", "tooltip": "прилагательное" },
+        "text": "splendid",
+        "translation": {
+          "pos": { "code": "adv", "text": "нареч", "tooltip": "наречие" },
+          "text": "превосходно"
+        }
+      },
+      {
+        "pos": { "code": "adj", "text": "прил", "tooltip": "прилагательное" },
+        "text": "splendid",
+        "translation": { "other": true }
+      }
+    ],
+    "examples": [
+      {
+        "dst": "Браво, Люк, ты <великолепен>!",
+        "id": "fd78e4e9c8e99417ba4974edbaea7aa1",
+        "ref": {
+          "author": "Колин Маккалоу",
+          "title": "Поющие в терновнике",
+          "translator": "Нора Галь",
+          "type": "book",
+          "year": 1977
+        },
+        "src": "Oh, bravo! Luke, you're <splendid>!",
+        "tabIndex": 0
+      },
+      {
+        "dst": "Миссис Смит устраивает <роскошное> чаепитие в твою честь, а потом, когда станет прохладнее, нас накормят отлично поджаренным окороком с кучей шкварок.",
+        "id": "7dd059b7da62695013e311722f03af0c",
+        "ref": {
+          "author": "Колин Маккалоу",
+          "title": "Поющие в терновнике",
+          "translator": "Нора Галь",
+          "type": "book",
+          "year": 1977
+        },
+        "src": "Mrs. Smith is laying on a <splendid> tea in your honor, and later on when it's a bit cooler there's to be roast leg of pork, with lots of crackling.\"",
+        "tabIndex": 1
+      },
+      {
+        "dst": "Днем Лондон представлял собою очень красивое зрелище: на каждом балконе, на каждой крыше развевались яркие флаги, по улицам шествовали <пышные> процессии.",
+        "id": "6a63d16a2cfcf33ddebb2c209a3bee03",
+        "ref": {
+          "author": "Марк Твен",
+          "title": "Принц и нищий",
+          "translator": "К.И. Чуковский, Н.К. Чуковский",
+          "type": "book",
+          "year": 1881
+        },
+        "src": "By day, London was a sight to see, with gay banners waving from every balcony and housetop, and <splendid> pageants marching along.",
+        "tabIndex": 2
+      },
+      {
+        "dst": "С небольшим фронтоном, они очень <величественные>.",
+        "id": "d1673c4530b5c6c30e602643d5636e62",
+        "ref": {
+          "director": "Ian Lorimer",
+          "imdb": "https://www.imdb.com/title/tt3205226/",
+          "orig_title": "QI",
+          "titale": "КьюАй. Весьма интересно",
+          "type": "series",
+          "url": "https://www.kinopoisk.ru/film/493902/"
+        },
+        "src": "With a little pediment, it's very <splendid>.",
+        "tabIndex": 3
+      },
+      {
+        "dst": "- По-моему, это <прекрасная> мысль, - одобрил врач.",
+        "id": "d1d9a48e9487108fe8e3216230142545",
+        "ref": {
+          "author": "Джозеф Хеллер",
+          "title": "Уловка-22",
+          "translator": "Валентин Мачулис",
+          "type": "book",
+          "year": 1961
+        },
+        "src": "'That sounds like a <splendid> idea,' applauded the doctor.",
+        "tabIndex": 4
+      },
+      {
+        "dst": "Правда, <замечательное> укрытие?",
+        "id": "80bcad6aea0112ee8867796963c67743",
+        "ref": {
+          "author": "Джордж Оруэлл",
+          "title": "1984",
+          "translator": "В.П. Голышев",
+          "type": "book",
+          "year": 1948
+        },
+        "src": "Isn't this a <splendid> hide-out?",
+        "tabIndex": 5
+      },
+      {
+        "dst": "Наша жизнь будет просто <шикарной>, девочки.",
+        "id": "aa104cea4ad40c239c414cca970c1e7f",
+        "ref": {
+          "director": "Брэдли Букер и другие",
+          "imdb": "https://www.imdb.com/title/tt3781964/",
+          "orig_title": "American Horror Story",
+          "title": "Американская история ужасов",
+          "type": "series",
+          "url": "https://www.kinopoisk.ru/film/589167/"
+        },
+        "src": "We are going to have the most <splendid> life, girls.",
+        "tabIndex": 6
+      },
+      {
+        "dst": "Если бы у нас был мастер-иллюстратор, то у нас бы вышла <изумительная> работа.",
+        "id": "aeadd7fe5e9aa51e6b1541f222f708e3",
+        "ref": {
+          "director": "Томм Мур и другие",
+          "imdb": "https://www.imdb.com/title/tt0485601/",
+          "orig_title": "Secret of Kells, The",
+          "title": "Тайна Келлс",
+          "type": "movie",
+          "url": "https://www.kinopoisk.ru/film/194033/"
+        },
+        "src": "If we had a true master illuminator, we would do such <splendid> work.",
+        "tabIndex": 7
+      },
+      {
+        "dst": "<Великолепнейшие> новости.",
+        "id": "80106e4c98e53d8ed42f15aa5ad991be",
+        "ref": {
+          "author": "Борис Леонидович Пастернак",
+          "title": "Доктор Живаго",
+          "translator": "Manya Harari, Max Hayward",
+          "type": "book",
+          "year": 1945
+        },
+        "src": "There's <splendid> news.",
+        "tabIndex": 8
+      },
+      {
+        "dst": "- <Превосходная> мысль! - воскликнул он. - Вы что, празднуете удачу?",
+        "id": "36e2e6cb7e4a0a07f2ab30d179a5f4e6",
+        "ref": {
+          "author": "Кристофер Прист",
+          "title": "Машина пространства",
+          "translator": "Олег Георгиевич Битов",
+          "type": "book",
+          "year": 1976
+        },
+        "src": "\"What a <splendid> notion!\" he said. \"Are you celebrating a success?\"",
+        "tabIndex": 9
+      },
+      {
+        "dst": "- <Отличная> работа.",
+        "id": "e8eb45f35af2a6ec7ca4908d22aaba8c",
+        "ref": {
+          "author": "Рэй Брэдбери",
+          "title": "Марсианские хроники",
+          "translator": "Л.Л. Жданов",
+          "type": "book",
+          "year": 1950
+        },
+        "src": "\"You've done a <splendid> job.\"",
+        "tabIndex": 10
+      },
+      {
+        "dst": "Во всех отношениях, <отменные> экземпляры хомо сапиенс, самый цвет человеческой расы.",
+        "id": "106827ef7cbe056a37c0727bd99d847c",
+        "ref": {
+          "director": "Марк Дэниелс и другие",
+          "imdb": "https://www.imdb.com/title/tt0708438/",
+          "orig_title": "Star Trek",
+          "title": "Звездный путь",
+          "type": "series",
+          "url": "https://www.kinopoisk.ru/film/229272/"
+        },
+        "src": "In every way, <splendid> examples of homo sapiens, the very flower of humanity.",
+        "tabIndex": 11
+      },
+      {
+        "dst": "То был <блестящий>, роскошный, великолепный, ослепительный бал; по крайней мере, эти слова переходили из уст в уста.",
+        "id": "86f416de7158428213ce9c8f08fe2648",
+        "ref": {
+          "author": "Колин Маккалоу",
+          "title": "Поющие в терновнике",
+          "translator": "Нора Галь",
+          "type": "book",
+          "year": 1977
+        },
+        "src": "It was a <splendid>, sumptuous, brilliant, glorious party; at least, they were the adjectives most bandied about.",
+        "tabIndex": 12
+      },
+      {
+        "dst": "Какое <блистательное> преображение!",
+        "id": "2339db639ee17834927a4c336be217b1",
+        "ref": {
+          "author": "Виктор Гюго",
+          "title": "Отверженные",
+          "translator": "Isabel F. Hapgood, Д.Г. Лившиц",
+          "type": "book",
+          "year": 1862
+        },
+        "src": "And what a <splendid> transfiguration!",
+        "tabIndex": 13
+      },
+      {
+        "dst": "<Восхитительное> создание.",
+        "id": "fa3c8c943d043911adb0c06a52f8778a",
+        "ref": {
+          "author": "Теодор Драйзер",
+          "title": "Титан",
+          "translator": "Валентина Курелла и другие",
+          "type": "book",
+          "year": 1914
+        },
+        "src": "What a <splendid> creature!",
+        "tabIndex": 14
+      },
+      {
+        "dst": "- День уж очень <славный>. Захотелось полежать в постели и помечтать о том, как хорошо на улице.",
+        "id": "7ea50189e00c83c2017277453ae70278",
+        "ref": {
+          "author": "Уильям Сомерсет Моэм",
+          "title": "Бремя страстей человеческих",
+          "translator": "Борис Изаков, Елена Голышева",
+          "type": "book",
+          "year": 1915
+        },
+        "src": "\"It was such a <splendid> day, I thought I'd lie in bed and think how beautiful it was out.\"",
+        "tabIndex": 15
+      },
+      {
+        "dst": "- <Великолепно>!",
+        "id": "8670797cb80d579d5cda8f972a4237ee",
+        "ref": {
+          "author": "Айн Рэнд",
+          "title": "Источник",
+          "translator": "Д. В. Костыгин",
+          "type": "book",
+          "year": 1943
+        },
+        "src": "\"Isn't it <splendid>?",
+        "tabIndex": 16
+      },
+      {
+        "dst": "Джулия одарила его долгим взглядом своих <чудесных> глаз.",
+        "id": "95ac1fdc94fe2f396411be834eab74d7",
+        "ref": {
+          "author": "Уильям Сомерсет Моэм",
+          "title": "Театр",
+          "translator": "Г. Островская",
+          "type": "book",
+          "year": 1937
+        },
+        "src": "She gave him a lingering look of her <splendid> eyes.",
+        "tabIndex": 17
+      },
+      {
+        "dst": "- И <чудесно>!",
+        "id": "41dc01e5d68ac0a830ce9d33bb2c3297",
+        "ref": {
+          "author": "Александр Иванович Куприн",
+          "title": "Яма",
+          "translator": "B.G. Guerney",
+          "type": "book",
+          "year": 1909
+        },
+        "src": "\"That's <splendid>!",
+        "tabIndex": 18
+      },
+      {
+        "dst": "- <Превосходно>, миссис Леки.",
+        "id": "c3d0c3bfa616d2a79cac36f11052e87e",
+        "ref": {
+          "author": "Агата Кристи",
+          "title": "Трагедия в трех актах",
+          "translator": "В.В. Тирдатов",
+          "type": "book",
+          "year": 1934
+        },
+        "src": "\"<Splendid>, Mrs. Leckie.",
+        "tabIndex": 19
+      },
+      {
+        "dst": "Он <великолепен>.",
+        "id": "6f173b1eea5e5fd7a5e82a9306e11218",
+        "ref": {
+          "author": "Айн Рэнд",
+          "title": "Источник",
+          "translator": "Д. В. Костыгин",
+          "type": "book",
+          "year": 1943
+        },
+        "src": "It's <splendid>.",
+        "tabIndex": 0
+      },
+      {
+        "dst": "Столовая оборудована <роскошными> бронзовыми воротами, по ошибке помещёнными на потолок, в виде садовой решётки, увитой свежими побегами бронзового винограда.",
+        "id": "71761c11633baf38bcc6d1256b983c29",
+        "ref": {
+          "author": "Айн Рэнд",
+          "title": "Источник",
+          "translator": "Д. В. Костыгин",
+          "type": "book",
+          "year": 1943
+        },
+        "src": "The dining room has a <splendid> bronze gate, placed by mistake on the ceiling, in the shape of a trellis entwined with fresh bronze grapes.",
+        "tabIndex": 1
+      },
+      {
+        "dst": "Встану потом, обращусь назад, а солнце заходит, да такое большое, да <пышное>, да славное, -любишь ты на солнце смотреть, Шатушка?",
+        "id": "6f795bcd2675ed10490a264ea0c87af2",
+        "ref": {
+          "author": "Федор Михайлович Достоевский",
+          "title": "Бесы",
+          "translator": "Constance Garnett",
+          "type": "book",
+          "year": 1872
+        },
+        "src": "I would get up, and turn back when the sun was setting, it was so big, and <splendid> and glorious-do you like looking at the sun, Shatushka?",
+        "tabIndex": 2
+      },
+      {
+        "dst": "И чтобы приготовиться к этому <величественному> дню, она посвятила месяц — нет, несколько месяцев — очищению своего тела и души.",
+        "id": "a666d9cbc0ba18988157bf9f9ea55d0e",
+        "ref": {
+          "director": "Нагиса Осима",
+          "imdb": "https://www.imdb.com/title/tt0066639/",
+          "orig_title": "Gishiki",
+          "title": "Церемония",
+          "type": "movie",
+          "url": "https://www.kinopoisk.ru/film/160343/"
+        },
+        "src": "And to prepare herself for this <splendid> day she has dedicated herself for a month, no, for several months to purify her body and her soul",
+        "tabIndex": 3
+      },
+      {
+        "dst": "Пишущая машинка - <прекрасный> инструмент, не следует над ней издеваться.",
+        "id": "97e41173aed6a1c70b1b78185f96c351",
+        "ref": {
+          "author": "Айн Рэнд",
+          "title": "Источник",
+          "translator": "Д. В. Костыгин",
+          "type": "book",
+          "year": 1943
+        },
+        "src": "The typewriter is a <splendid> instrument, not to be outraged.\"",
+        "tabIndex": 4
+      },
+      {
+        "dst": "Он <замечательный> человек и был лучшим другом моего покойного отца.",
+        "id": "5a3f5639fa5c0457a8b63b9db3a891e7",
+        "ref": {
+          "author": "Маргарет Митчелл",
+          "title": "Унесенные ветром. Том 1",
+          "translator": "Татьяна Алексеевна Озёрская",
+          "type": "book",
+          "year": 1936
+        },
+        "src": "He's a <splendid> person and was my father's best friend.\"",
+        "tabIndex": 5
+      },
+      {
+        "dst": "Главные компоненты это <шикарная> корзина для пикника, ясное голубое небо и...",
+        "id": "e0ad44924ec38103a52c1c9b4cb8a6d3",
+        "ref": {
+          "director": "Сидни Макартни и другие",
+          "imdb": "https://www.imdb.com/title/tt3202620/",
+          "orig_title": "Call the Midwife",
+          "title": "Зовите повитуху",
+          "type": "series",
+          "url": "https://www.kinopoisk.ru/film/664424/"
+        },
+        "src": "The key ingredients are a <splendid> picnic hamper, a clear blue sky and...",
+        "tabIndex": 6
+      },
+      {
+        "dst": "Да, <изумительная> женщина.",
+        "id": "7e34f84d7aa84f7c67b58c1f7608c562",
+        "ref": {
+          "director": "Джулз Басс и другие",
+          "imdb": "https://www.imdb.com/title/tt0084237/",
+          "orig_title": "Last Unicorn, The",
+          "title": "Последний единорог",
+          "type": "movie",
+          "url": "https://www.kinopoisk.ru/film/5652/"
+        },
+        "src": "Yes, <splendid> woman.",
+        "tabIndex": 7
+      },
+      {
+        "dst": "Получив ответы на свои вопросы, она пошла дальше, а он после разговора с нею стал улыбаться еще ласковее и думать, что его окружают <великолепнейшие> люди...",
+        "id": "82158b36958979b05884f7d665bd1328",
+        "ref": {
+          "author": "Антон Павлович Чехов",
+          "title": "Поцелуй",
+          "translator": "Constance Garnett",
+          "type": "book",
+          "year": 1887
+        },
+        "src": "After receiving answers to her questions, she went on, and after his conversation with her his smiles were more friendly than ever, and he thought he was surrounded by <splendid> people. . . .",
+        "tabIndex": 8
+      },
+      {
+        "dst": "- Дело в том, что я коллекционирую споудовский фарфор, а это <превосходный> его образец.",
+        "id": "43d5574b5c2266bf8efd6d84416a7f4f",
+        "ref": {
+          "author": "Агата Кристи",
+          "title": "После похорон",
+          "translator": "Владимир Тирдатов",
+          "type": "book",
+          "year": 1953
+        },
+        "src": "\"As a matter of fact I collect Spode. And this is really a <splendid> specimen.",
+        "tabIndex": 9
+      },
+      {
+        "dst": "<Отличное>, но секрет!",
+        "id": "4de5addf59b419136517eba479b0b8ff",
+        "ref": {
+          "author": "Лев Николаевич Толстой",
+          "title": "Анна Каренина",
+          "translator": "Constance Garnett",
+          "type": "book",
+          "year": 1877
+        },
+        "src": "A <splendid> thing; but it's a secret!",
+        "tabIndex": 10
+      },
+      {
+        "dst": "Было бы невежливо ничего об этом не знать, выслушав такое <блестящее> объяснение сути всего дела, в конце концов, видимо, основанного на недоразумении.",
+        "id": "606c4282072ccd25e4179bac01fd923c",
+        "ref": {
+          "author": "Эрнест Миллер Хемингуэй",
+          "title": "Прощай, оружие!",
+          "translator": "Е.Д. Калашникова",
+          "type": "book",
+          "year": 1929
+        },
+        "src": "It would have been impolite not to have known something of them when I had listened to such a <splendid> explanation of their causes which were, after all, it seemed, misunderstandings.",
+        "tabIndex": 12
+      },
+      {
+        "dst": "Во время этого <блистательного> владычества материи идеал получил странное название идеологии.",
+        "id": "a08a63d63c5b819ba83f49ab7975b419",
+        "ref": {
+          "author": "Виктор Гюго",
+          "title": "Отверженные",
+          "translator": "Isabel F. Hapgood, Д.Г. Лившиц",
+          "type": "book",
+          "year": 1862
+        },
+        "src": "Under this reign of <splendid> matter, the ideal had received the strange name of ideology!",
+        "tabIndex": 13
+      },
+      {
+        "dst": "Разве это не <восхитительно>, мисс Тейлор?",
+        "id": "d1ef2ee3e2beb21f7841471a9b5503b7",
+        "ref": {
+          "director": "Джим О’Хенлон",
+          "imdb": "https://www.imdb.com/title/tt1410532/",
+          "orig_title": "Emma",
+          "title": "Эмма",
+          "type": "series",
+          "url": "https://www.kinopoisk.ru/film/464849/"
+        },
+        "src": "Isn't that <splendid>, Miss Taylor?",
+        "tabIndex": 14
+      },
+      {
+        "dst": "Если бы можно было снять мягкие ткани с костей, <славный> оказался бы под ними скелет.",
+        "id": "a3fe99cd796d4f22aec4bd5e36f8976f",
+        "ref": {
+          "author": "Уилки Коллинз",
+          "title": "Две судьбы",
+          "translator": "В. Байков",
+          "type": "book"
+        },
+        "src": "If you could strip the flesh off her bones, you would find a <splendid> skeleton underneath.",
+        "tabIndex": 15
+      },
+      {
+        "dst": "- <Великолепно>!",
+        "id": "ff863ca0ade56431cc3f82e0e96ed990",
+        "ref": {
+          "author": "Агата Кристи",
+          "title": "Раз, два, пряжка держится едва",
+          "translator": "В. Владимиров",
+          "type": "book",
+          "year": 1940
+        },
+        "src": "\"Oh, that's <splendid>.",
+        "tabIndex": 16
+      },
+      {
+        "dst": "И такой <чудесный> человек!",
+        "id": "f62642864fc64d55812728dd2e29c09e",
+        "ref": {
+          "author": "Конрад Джозеф",
+          "title": "Лорд Джим",
+          "translator": "А.В. Кривцова",
+          "type": "book",
+          "year": 1899
+        },
+        "src": "Such a <splendid> man! . . .",
+        "tabIndex": 17
+      },
+      {
+        "dst": "- И <чудесно>.",
+        "id": "48a588c2fcbfe3b014d6a22959e1870b",
+        "ref": {
+          "author": "Александр Иванович Куприн",
+          "title": "Яма",
+          "translator": "B.G. Guerney",
+          "type": "book",
+          "year": 1909
+        },
+        "src": "\"And that's <splendid>.",
+        "tabIndex": 18
+      },
+      {
+        "dst": "Все шло <превосходно>.",
+        "id": "d388973caca3bcb8d6b1569625c544cc",
+        "ref": {
+          "author": "Уильям Сомерсет Моэм",
+          "title": "Бремя страстей человеческих",
+          "translator": "Борис Изаков, Елена Голышева",
+          "type": "book",
+          "year": 1915
+        },
+        "src": "It was <splendid>.",
+        "tabIndex": 19
+      },
+      {
+        "dst": "Г ай Франкон считал этот зал <великолепным> образцом архитектуры, только сегодня здесь было душновато из-за тесноты и пренебрежения вентиляцией.",
+        "id": "358a3ef81c502e357d593fdc2114df3f",
+        "ref": {
+          "author": "Айн Рэнд",
+          "title": "Источник",
+          "translator": "Д. В. Костыгин",
+          "type": "book",
+          "year": 1943
+        },
+        "src": "The hall before him, he thought, was a <splendid> specimen of architecture, made a bit stuffy today by the crowd and by the neglected problem of ventilation.",
+        "tabIndex": 0
+      },
+      {
+        "dst": "И они давали такие <роскошные> балы, и катались на таких прекрасных лошадях, и просто обожали молодых южанок!",
+        "id": "7134d5026fa4870ee4b76cee251c3fc6",
+        "ref": {
+          "author": "Маргарет Митчелл",
+          "title": "Унесенные ветром. Том 2",
+          "translator": "Татьяна Кудрявцева",
+          "type": "book",
+          "year": 1936
+        },
+        "src": "And they gave such <splendid> balls and drove such fine horses and simply worshiped Southern girls!",
+        "tabIndex": 1
+      },
+      {
+        "dst": "Черт возьми, Бошан, я устрою <пышные> похороны своей чести!",
+        "id": "8fca2360d481c0947c50fedd0df49d77",
+        "ref": {
+          "author": "Александр Дюма",
+          "title": "Граф Монте-Кристо",
+          "translator": "Владимир Строев",
+          "type": "book",
+          "year": 1844
+        },
+        "src": "Pardieu, Beauchamp, mine shall be a <splendid> funeral!\"",
+        "tabIndex": 2
+      },
+      {
+        "dst": "- У тебя <прекрасный> чин.",
+        "id": "109a9e336b53a4ae71c585be7ff33ab6",
+        "ref": {
+          "author": "Эрнест Миллер Хемингуэй",
+          "title": "Прощай, оружие!",
+          "translator": "Е.Д. Калашникова",
+          "type": "book",
+          "year": 1929
+        },
+        "src": "\"You have a <splendid> rank.",
+        "tabIndex": 4
+      },
+      {
+        "dst": "- Это просто <замечательно>!",
+        "id": "f5e3a917fba1f12898f3b98dac9d7332",
+        "ref": {
+          "author": "Агата Кристи",
+          "title": "Убийство в «Восточном экспрессе»",
+          "translator": "Лариса Георгиевна Беспалова",
+          "type": "book",
+          "year": 1934
+        },
+        "src": "\"Why, that's <splendid>.",
+        "tabIndex": 5
+      },
+      {
+        "dst": "<Шикарные> новости!",
+        "id": "67fb097b381a2dc83d68fd2f97dadc8d",
+        "ref": {
+          "director": "Николас Хайтнер",
+          "imdb": "https://www.imdb.com/title/tt0464049/",
+          "orig_title": "History Boys, The",
+          "title": "Любители истории",
+          "type": "movie",
+          "url": "https://www.kinopoisk.ru/film/160933/"
+        },
+        "src": "<Splendid> news.",
+        "tabIndex": 6
+      },
+      {
+        "dst": "- Это был бы <превосходный> выход.",
+        "id": "423b26cefbf901d5237d18a2f5cef13c",
+        "ref": {
+          "author": "Теодор Драйзер",
+          "title": "Финансист",
+          "translator": "Марк Волосов",
+          "type": "book",
+          "year": 1912
+        },
+        "src": "\"It would be a <splendid> way out.",
+        "tabIndex": 9
+      },
+      {
+        "dst": "Болото <отличное>, я вижу, и ястреба', -- сказал Степан Аркадьич, указывая на двух вившихся над осокой больших птиц. -- Где ястреба', там наверное и дичь есть.",
+        "id": "c9283f88051227c26617c444a55f413e",
+        "ref": {
+          "author": "Лев Николаевич Толстой",
+          "title": "Анна Каренина",
+          "translator": "Constance Garnett",
+          "type": "book",
+          "year": 1877
+        },
+        "src": "It's a <splendid> marsh, I see, and there are hawks,\" said Stepan Arkadyevitch, pointing to two great birds hovering over the reeds. \"Where there are hawks, there is sure to be game.\"",
+        "tabIndex": 10
+      },
+      {
+        "dst": "\"<Блестящая> операция\", - говорили Мак-Кенти и Эддисон.",
+        "id": "f20eecae411330c78d9adb9af45e58f6",
+        "ref": {
+          "author": "Теодор Драйзер",
+          "title": "Титан",
+          "translator": "Валентина Курелла и другие",
+          "type": "book",
+          "year": 1914
+        },
+        "src": "It was a <splendid> coup, as McKenty and Addison assured him.",
+        "tabIndex": 12
+      },
+      {
+        "dst": "Вся проникнутая радостью юности, невинности, красоты, она дышала <блистательной> грустью.",
+        "id": "21aebfa432e1d292a461bf5b54a09a80",
+        "ref": {
+          "author": "Виктор Гюго",
+          "title": "Отверженные",
+          "translator": "Вильгельм Левик и другие",
+          "type": "book",
+          "year": 1862
+        },
+        "src": "Her whole person, permeated with the joy of youth, of innocence, and of beauty, breathed forth a <splendid> melancholy.",
+        "tabIndex": 13
+      },
+      {
+        "dst": "Восхитительно, <восхитительно>.",
+        "id": "ef91b65b043ea52b15025bac02d7bdb3",
+        "ref": {
+          "director": "Боб Спирс и другие",
+          "imdb": "https://www.imdb.com/title/tt0578584/",
+          "orig_title": "Fawlty Towers",
+          "title": "Отель 'Фолти Тауэрс'",
+          "type": "series",
+          "url": "https://www.kinopoisk.ru/film/438208/"
+        },
+        "src": "Splendid, <splendid>.",
+        "tabIndex": 14
+      },
+      {
+        "dst": "-Я уже сказала, мой <славный> мальчик... И ты меня прости... Больше ведь не увидимся!..",
+        "id": "71e47455fcd79540ab5e5f2683d31aef",
+        "ref": {
+          "author": "Александр Иванович Куприн",
+          "title": "Яма",
+          "translator": "B.G. Guerney",
+          "type": "book",
+          "year": 1909
+        },
+        "src": "\"I've already told you, my <splendid> boy... And you forgive me too... For we won't see each other anymore!\"",
+        "tabIndex": 15
+      },
+      {
+        "dst": "- <Великолепно>, - одобрил мистер Саттерсвейт.",
+        "id": "80fa84ff5e2993d505c336a9656330ed",
+        "ref": {
+          "author": "Агата Кристи",
+          "title": "Трагедия в трех актах",
+          "translator": "В.В. Тирдатов",
+          "type": "book",
+          "year": 1934
+        },
+        "src": "\"<Splendid>,\" said Mr. Satterthwaite.",
+        "tabIndex": 16
+      },
+      {
+        "dst": "- Она <чудесна>.",
+        "id": "262135121449c5a220855a1dfcec26a3",
+        "ref": {
+          "author": "Юрий Карлович Олеша",
+          "title": "Три толстяка",
+          "translator": "Aimee Anderson",
+          "type": "book",
+          "year": 1924
+        },
+        "src": "\"It's <splendid>!\"",
+        "tabIndex": 17
+      },
+      {
+        "dst": "Как <чудесно>.",
+        "id": "ae9073ccb5335fea188e3d9510a99389",
+        "ref": {
+          "director": "Энди де Эммони и другие",
+          "imdb": "https://www.imdb.com/title/tt3667396/",
+          "orig_title": "Our Zoo",
+          "title": "Наш зоопарк",
+          "type": "series",
+          "url": "https://www.kinopoisk.ru/film/841670/"
+        },
+        "src": "How <splendid>.",
+        "tabIndex": 18
+      },
+      {
+        "dst": "- <Превосходно>, - сказал сэр Аластер.",
+        "id": "bf434b371057fed40a8f34673b3c3088",
+        "ref": {
+          "author": "Ивлин Во",
+          "title": "Упадок и разрушение",
+          "translator": "С. Белов",
+          "type": "book"
+        },
+        "src": "' <Splendid>! said Sir Alastair.",
+        "tabIndex": 19
+      },
+      {
+        "dst": "- Ну, милочка, вот и я. <Великолепный> день, не правда ли?",
+        "id": "b5985f4f3505687f233f9d250f4cd2f1",
+        "ref": {
+          "author": "Дафна дю Морье",
+          "title": "Ребекка",
+          "translator": "Галина Островская",
+          "type": "book",
+          "year": 1938
+        },
+        "src": "'Well, my dear, here I am, what a <splendid> day, isn't it?'",
+        "tabIndex": 0
+      },
+      {
+        "dst": "Он любил свои <роскошные> наряды и заказывал себе новые. Он нашел, что четырехсот слуг недостаточно для его величия, и утроил их число.",
+        "id": "ac978cd2ac8b3c6ae5e17e0060829ca7",
+        "ref": {
+          "author": "Марк Твен",
+          "title": "Принц и нищий",
+          "translator": "К.И. Чуковский, Н.К. Чуковский",
+          "type": "book",
+          "year": 1881
+        },
+        "src": "He enjoyed his <splendid> clothes, and ordered more: he found his four hundred servants too few for his proper grandeur, and trebled them.",
+        "tabIndex": 1
+      },
+      {
+        "dst": "Но вообще это <прекрасная> комната.",
+        "id": "dcb464d1c0a30bd21f1e079922cb37cf",
+        "ref": {
+          "author": "Эрнест Миллер Хемингуэй",
+          "title": "Прощай, оружие!",
+          "translator": "Е.Д. Калашникова",
+          "type": "book",
+          "year": 1929
+        },
+        "src": "But it's really a <splendid> room.\"",
+        "tabIndex": 4
+      },
+      {
+        "dst": "Но непременно в самом <замечательном> месте.",
+        "id": "c5aee5e9d2ccef2ba4d83bd3831eecc3",
+        "ref": {
+          "author": "Эрнест Миллер Хемингуэй",
+          "title": "Прощай, оружие!",
+          "translator": "Е.Д. Калашникова",
+          "type": "book",
+          "year": 1929
+        },
+        "src": "But somewhere <splendid>.",
+        "tabIndex": 5
+      },
+      {
+        "dst": "Спасибо за приглашение на такую <шикарную> вечеринку прошлым вечером.",
+        "id": "a26143741c856c0b82f722b55524fe5c",
+        "ref": {
+          "director": "Кэй Меллор и другие",
+          "imdb": "https://www.imdb.com/title/tt2356633/",
+          "orig_title": "Syndicate, The",
+          "title": "Синдикат",
+          "type": "series",
+          "url": "https://www.kinopoisk.ru/film/672872/"
+        },
+        "src": "Thank you for inviting me to such a <splendid> party last night.",
+        "tabIndex": 6
+      },
+      {
+        "dst": "- Обеды <превосходны>, - ответил Поль.",
+        "id": "72a06fcd1f15ff590533963aa0965ed7",
+        "ref": {
+          "author": "Ивлин Во",
+          "title": "Упадок и разрушение",
+          "translator": "С. Белов",
+          "type": "book"
+        },
+        "src": "' It's <splendid>, said Paul.",
+        "tabIndex": 9
+      },
+      {
+        "dst": "Там, кажется, целый погреб <отличных> вин.",
+        "id": "1d43fb2c50f58c577b5705140c9333c9",
+        "ref": {
+          "author": "Оноре де Бальзак",
+          "title": "Блеск и нищета куртизанок",
+          "translator": "James Waring, Нина Яковлева",
+          "type": "book",
+          "year": 1838
+        },
+        "src": "There is a <splendid> cellar of wine, it would seem.",
+        "tabIndex": 10
+      },
+      {
+        "dst": "Стрейка осенила <блестящая> идея.",
+        "id": "1ce0d6eaed91956541013cec8b3c1731",
+        "ref": {
+          "author": "Теодор Драйзер",
+          "title": "Финансист",
+          "translator": "Марк Волосов",
+          "type": "book",
+          "year": 1912
+        },
+        "src": "Strake has a <splendid> idea.",
+        "tabIndex": 12
+      },
+      {
+        "dst": "Произнёс <блистательную> речь, экспромтом.",
+        "id": "dcb5fe504077e3010aa57e116a9f341c",
+        "ref": {
+          "director": "Пит Трэвис",
+          "imdb": "https://www.imdb.com/title/tt5996872/",
+          "orig_title": "Fearless",
+          "title": "Бесстрашная",
+          "type": "series",
+          "url": "https://www.kinopoisk.ru/film/1008910/"
+        },
+        "src": "Made a <splendid> speech, off the cuff.",
+        "tabIndex": 13
+      },
+      {
+        "dst": "Мне сказали, что вы сделали этот <восхитительный> парик из мертвой лошади.",
+        "id": "0e7d529f3787b4554b254e99b17df091",
+        "ref": {
+          "director": "Алекс Хардкасл и другие",
+          "imdb": "https://www.imdb.com/title/tt3071030/",
+          "orig_title": "A Young Doctor's Notebook & Other Stories",
+          "title": "Записки юного врача",
+          "type": "series",
+          "url": "https://www.kinopoisk.ru/film/687812/"
+        },
+        "src": "I'm told you made this <splendid> hairpiece out of a dead horse.",
+        "tabIndex": 14
+      },
+      {
+        "dst": "-- <Славное> болото.",
+        "id": "d173dc86fb4714530f3bb786eebad905",
+        "ref": {
+          "author": "Лев Николаевич Толстой",
+          "title": "Анна Каренина",
+          "translator": "Constance Garnett",
+          "type": "book",
+          "year": 1877
+        },
+        "src": "\"A <splendid> marsh!",
+        "tabIndex": 15
+      },
+      {
+        "dst": "- Вы выглядели <великолепно>, мисс Литтон-Гор.",
+        "id": "c7d834d6cccbcec48913ec3d59e0f0b4",
+        "ref": {
+          "author": "Агата Кристи",
+          "title": "Трагедия в трех актах",
+          "translator": "В.В. Тирдатов",
+          "type": "book",
+          "year": 1934
+        },
+        "src": "\"You did it <splendid>, Miss Lytton Gore.",
+        "tabIndex": 16
+      },
+      {
+        "dst": "<Чудесная> мысль!",
+        "id": "e33a1bfa524aa9e5ba891835d9ed7dd8",
+        "ref": {
+          "author": "Александр Иванович Куприн",
+          "title": "Яма",
+          "translator": "B.G. Guerney",
+          "type": "book",
+          "year": 1909
+        },
+        "src": "That's a <splendid> thought!\"",
+        "tabIndex": 17
+      },
+      {
+        "dst": "- <Чудесно>, - сказал полковник Кэткарт.",
+        "id": "12fa116228c9cc5959ab05455464bde9",
+        "ref": {
+          "author": "Джозеф Хеллер",
+          "title": "Уловка-22",
+          "translator": "Валентин Мачулис",
+          "type": "book",
+          "year": 1961
+        },
+        "src": "'<Splendid>!' said Colonel Cathcart.",
+        "tabIndex": 18
+      },
+      {
+        "dst": "Но благодаря <великолепным> глазам и стройной фигуре он все еще был достаточно красив.",
+        "id": "6adb6417242d4e74a3334bbdf16ee2c4",
+        "ref": {
+          "author": "Уильям Сомерсет Моэм",
+          "title": "Театр",
+          "translator": "Г. Островская",
+          "type": "book",
+          "year": 1937
+        },
+        "src": "But with his <splendid> eyes and his fine figure he was still a very handsome man.",
+        "tabIndex": 0
+      },
+      {
+        "dst": "Полковник с почтительной нежностью поцеловал принцу руку. Между тем карета въехала под арку, ведущую в <роскошную> резиденцию принца.",
+        "id": "a4b7ad233ce564850133c75cf6041d0d",
+        "ref": {
+          "author": "Роберт Льюис Стивенсон",
+          "title": "Клуб самоубийц",
+          "translator": "Т. Литвинова",
+          "type": "book",
+          "year": 1878
+        },
+        "src": "The Colonel kissed his hand with the greatest affection; and at that moment the carriage rolled under the archway of the Prince's <splendid> residence.",
+        "tabIndex": 1
+      },
+      {
+        "dst": "Это произведет <прекрасное> впечатление.",
+        "id": "f20ee3fa6643888bfbf5ae494270ac3d",
+        "ref": {
+          "author": "Эрнест Миллер Хемингуэй",
+          "title": "Прощай, оружие!",
+          "translator": "Е.Д. Калашникова",
+          "type": "book",
+          "year": 1929
+        },
+        "src": "That ought to create a <splendid> impression.\"",
+        "tabIndex": 4
+      },
+      {
+        "dst": "- Мы <замечательные> люди, - сказала Кэтрин.",
+        "id": "3c422ecc09c2cb4a4ea6f78b52ab628b",
+        "ref": {
+          "author": "Эрнест Миллер Хемингуэй",
+          "title": "Прощай, оружие!",
+          "translator": "Е.Д. Калашникова",
+          "type": "book",
+          "year": 1929
+        },
+        "src": "\"We're <splendid> people,\" Catherine said.",
+        "tabIndex": 5
+      },
+      {
+        "dst": "Мебель была <превосходная>, гамбсовская... А почему вы вспомнили?",
+        "id": "c1a5d1013aec99ee5384a10fcac4c46b",
+        "ref": {
+          "author": "Илья Ильф и Евгений Петров",
+          "title": "Двенадцать стульев",
+          "translator": "John H.C. Richardson",
+          "type": "book",
+          "year": 1927
+        },
+        "src": "It was <splendid> furniture. Made by Hambs. . . . But why does it come to mind?\"",
+        "tabIndex": 9
+      },
+      {
+        "dst": "Отлично, <отлично>.",
+        "id": "797de9d84c711eb537f5b5ebc48e2be0",
+        "ref": {
+          "director": "Дуглас Кэмфилд и другие",
+          "imdb": "https://www.imdb.com/title/tt0776956/",
+          "orig_title": "Doctor Who",
+          "title": "Доктор Кто",
+          "type": "series",
+          "url": "https://www.kinopoisk.ru/film/258549/"
+        },
+        "src": "Splendid, <splendid>.",
+        "tabIndex": 10
+      },
+      {
+        "dst": "Шансы, правда, <блестящие>, но и риск немалый.",
+        "id": "73b17fbfe7a9b7f234dd4e77fc9bee0e",
+        "ref": {
+          "author": "Теодор Драйзер",
+          "title": "Финансист",
+          "translator": "Марк Волосов",
+          "type": "book",
+          "year": 1912
+        },
+        "src": "It was a <splendid> chance but dangerous.",
+        "tabIndex": 12
+      },
+      {
+        "dst": "Я хочу представить всем моего <блистательного> зятя Гаэтано Прокло.",
+        "id": "e8f0851488426c2faa145791b6d397f6",
+        "ref": {
+          "director": "Ричард Лестер",
+          "imdb": "https://www.imdb.com/title/tt0075144/",
+          "orig_title": "Ritz, The",
+          "title": "Риц",
+          "type": "movie",
+          "url": "https://www.kinopoisk.ru/film/9224/"
+        },
+        "src": "I want you all to meet my <splendid> brother-in-law, Gaetano Proclo.",
+        "tabIndex": 13
+      },
+      {
+        "dst": "Развлекать людей - совершенно <восхитительное> занятие.",
+        "id": "4d9f509d8b23e8868369e12e58b9bad9",
+        "ref": {
+          "director": "Стивен Полякофф",
+          "imdb": "https://www.imdb.com/title/tt1319694/",
+          "orig_title": "Glorious 39",
+          "title": "1939",
+          "type": "movie",
+          "url": "https://www.kinopoisk.ru/film/431141/"
+        },
+        "src": "It's an absolutely <splendid> thing to cheer people up.",
+        "tabIndex": 14
+      },
+      {
+        "dst": "Не правда ли, <славный> малый?",
+        "id": "f2fb0cd95162321510f290ceebe041ab",
+        "ref": {
+          "author": "Лев Николаевич Толстой",
+          "title": "Анна Каренина",
+          "translator": "Constance Garnett",
+          "type": "book",
+          "year": 1877
+        },
+        "src": "Isn't he a <splendid> fellow?",
+        "tabIndex": 15
+      },
+      {
+        "dst": "Я себя <великолепно> чувствую.",
+        "id": "1e5870068f05cdf75923db437a74926e",
+        "ref": {
+          "author": "Эрнест Миллер Хемингуэй",
+          "title": "Прощай, оружие!",
+          "translator": "Е.Д. Калашникова",
+          "type": "book",
+          "year": 1929
+        },
+        "src": "I feel <splendid>.\"",
+        "tabIndex": 16
+      },
+      {
+        "dst": "Был <чудесный>, не слишком жаркий летний день.",
+        "id": "2bcf1ad7d7e6fa3e789854b7c4fcc32a",
+        "ref": {
+          "author": "Ги де Мопассан",
+          "title": "Милый друг",
+          "translator": "Николай Любимов",
+          "type": "book",
+          "year": 1885
+        },
+        "src": "It was <splendid> summer weather, not too warm.",
+        "tabIndex": 17
+      },
+      {
+        "dst": "Вспомнив, какие <великолепные> шоссе у нас, в Англии, я испытала приступ ностальгии.",
+        "id": "5944fe9ff2298786be48d9cf3beae0d5",
+        "ref": {
+          "author": "Агата Кристи",
+          "title": "Убийство в Месопотамии",
+          "translator": "Иван Шевченко",
+          "type": "book",
+          "year": 1936
+        },
+        "src": "When I thought of our <splendid> arterial roads in England it made me quite homesick.",
+        "tabIndex": 0
+      },
+      {
+        "dst": "- Он мне кажется <роскошным> замком, сэр.",
+        "id": "495c36717e7b13f835cd91be28bffed4",
+        "ref": {
+          "author": "Шарлотта Бронте",
+          "title": "Джен Эйр",
+          "translator": "В.О. Станевич",
+          "type": "book",
+          "year": 1847
+        },
+        "src": "\"It seems to me a <splendid> mansion, sir.\"",
+        "tabIndex": 1
+      },
+      {
+        "dst": "- Такой <прекрасный> день!",
+        "id": "3cd669a24a96e646b2bba33bd678a415",
+        "ref": {
+          "author": "Кеннет Грэм",
+          "title": "Ветер в ивах",
+          "translator": "Ирина Токмакова",
+          "type": "book",
+          "year": 1908
+        },
+        "src": "' It's a <splendid> day.",
+        "tabIndex": 4
+      },
+      {
+        "dst": "- Она <замечательная> женщина, - сказал я, -поблагодарите ее от меня.",
+        "id": "ee64a6ea454115d8e3239d46b54a1e1b",
+        "ref": {
+          "author": "Эрнест Миллер Хемингуэй",
+          "title": "Прощай, оружие!",
+          "translator": "Е.Д. Калашникова",
+          "type": "book",
+          "year": 1929
+        },
+        "src": "\"She's a <splendid> woman,\" I said. \"Thank her very much.\"",
+        "tabIndex": 5
+      },
+      {
+        "dst": "Голос <превосходный>, но ведь голос, в конце концов, можно и так слушать, не вступая в брак, не правда ли...",
+        "id": "6ed80733a322e22cebc5cefc0ba47fdf",
+        "ref": {
+          "author": "Михаил Афанасьевич Булгаков",
+          "title": "Белая гвардия",
+          "translator": "Michael Glenny",
+          "type": "book",
+          "year": 1925
+        },
+        "src": "He has a <splendid> voice, but after all one can listen to someone's voice without marrying him, can't one?",
+        "tabIndex": 9
+      },
+      {
+        "dst": "По-моему, это <отличный> пример взаимодействия.",
+        "id": "9edbf6df103cba8787709f7192bec0f9",
+        "ref": {
+          "director": "Марк Дэниелс и другие",
+          "imdb": "https://www.imdb.com/title/tt0708452/",
+          "orig_title": "Star Trek",
+          "title": "Звездный путь",
+          "type": "series",
+          "url": "https://www.kinopoisk.ru/film/229272/"
+        },
+        "src": "In my view, a <splendid> example of reciprocity.",
+        "tabIndex": 10
+      },
+      {
+        "dst": "Почему бы Анне не сделать <блестящую> партию?",
+        "id": "4d77c32a9944a209d16a8bd985de103c",
+        "ref": {
+          "author": "Теодор Драйзер",
+          "title": "Финансист",
+          "translator": "Марк Волосов",
+          "type": "book",
+          "year": 1912
+        },
+        "src": "There was no reason why Anna should not make a <splendid> match.",
+        "tabIndex": 12
+      },
+      {
+        "dst": "<Восхитительные> белые лотосы прибыли.",
+        "id": "9a7eec0fd875f09d01c35e2474998762",
+        "ref": {
+          "director": "Тони Буи",
+          "imdb": "https://www.imdb.com/title/tt0138874/",
+          "orig_title": "Three Seasons",
+          "title": "Три сезона",
+          "type": "movie",
+          "url": "https://www.kinopoisk.ru/film/9707/"
+        },
+        "src": "<Splendid>, the white lotuses have arrived.",
+        "tabIndex": 14
+      },
+      {
+        "dst": "Ты знаешь, у него <славный> голос, мы с ним спелись дорогой.",
+        "id": "3873b91e3aa8215660daec56444b13e7",
+        "ref": {
+          "author": "Лев Николаевич Толстой",
+          "title": "Анна Каренина",
+          "translator": "Constance Garnett",
+          "type": "book",
+          "year": 1877
+        },
+        "src": "You know, he has a <splendid> voice; we practiced songs together along the road.",
+        "tabIndex": 15
+      },
+      {
+        "dst": "Три дня после этого прошли <великолепно>.",
+        "id": "2c7b93708b7cb87823300cced3c78a9e",
+        "ref": {
+          "author": "Михаил Афанасьевич Булгаков",
+          "title": "Роковые яйца",
+          "translator": "Kathleen Gook-Horujy",
+          "type": "book",
+          "year": 1924
+        },
+        "src": "The next three days were <splendid>.",
+        "tabIndex": 16
+      },
+      {
+        "dst": "<Чудесная> музыка.",
+        "id": "cababb7b63536d5783a756e5b73c9aeb",
+        "ref": {
+          "director": "Мэтт Пидмонт",
+          "imdb": "https://www.imdb.com/title/tt4595652/",
+          "orig_title": "Spoils Before Dying, The",
+          "title": "Трофеи перед смертью",
+          "type": "series",
+          "url": "https://www.kinopoisk.ru/film/915458/"
+        },
+        "src": "<Splendid> music.",
+        "tabIndex": 17
+      },
+      {
+        "dst": "- О, это девушка <великолепная>.",
+        "id": "0180bb687bd9ec1753584efb205e994c",
+        "ref": {
+          "author": "Хаксли Олдос",
+          "title": "О дивный новый мир",
+          "translator": "Осия Сорока",
+          "type": "book",
+          "year": 1932
+        },
+        "src": "\"Oh, she's a <splendid> girl.",
+        "tabIndex": 0
+      },
+      {
+        "dst": "Следом за знаменем, выбравшись из его складок, появился лорд-мэр в лавровом венке и <роскошном> зелено-серебряном облачении с белой меховой опушкой.",
+        "id": "6c0dda0d1d278df8416eaad2d77ffcae",
+        "ref": {
+          "author": "Гилберт Кийт Честертон",
+          "title": "Наполеон Ноттингхильский",
+          "translator": "Владимир Муравьев",
+          "type": "book"
+        },
+        "src": "Immediately behind the banner, and almost completely hidden by it, came the Provost of the city, clad in <splendid> robes of green and silver with white fur and crowned with bay.",
+        "tabIndex": 1
+      },
+      {
+        "dst": "- Или что-то удивительное, и <прекрасное>, и красивое, - пробормотал дядюшка Рэт, откидываясь назад и закрывая глаза.",
+        "id": "f9707a8582efda5470f9d6a95a907a35",
+        "ref": {
+          "author": "Кеннет Грэм",
+          "title": "Ветер в ивах",
+          "translator": "Ирина Токмакова",
+          "type": "book",
+          "year": 1908
+        },
+        "src": "'Or something very surprising and <splendid> and beautiful,' murmured the Rat, leaning back and closing his eyes.",
+        "tabIndex": 4
+      },
+      {
+        "dst": "У меня уже готов <замечательный> холодный паштет из голубей.",
+        "id": "4850bc60030a56386d0a3e0b93ed7d19",
+        "ref": {
+          "author": "Гарди Томас",
+          "title": "Мэр Кэстербриджа",
+          "translator": "М. Клягина-Кондратьева",
+          "type": "book",
+          "year": 1886
+        },
+        "src": "I've got a <splendid> cold pigeon-pie going just now.",
+        "tabIndex": 5
+      },
+      {
+        "dst": "И вот однажды он встал рано утром, пошел на рынок и за десять франков купил штук двадцать <превосходных> груш.",
+        "id": "fcb708e5e13cd8bd051a09da359b4657",
+        "ref": {
+          "author": "Ги де Мопассан",
+          "title": "Милый друг",
+          "translator": "Николай Любимов",
+          "type": "book",
+          "year": 1885
+        },
+        "src": "One day, then, having risen early, he went to the market while the morning sales were in progress, and for ten francs obtained a score of <splendid> pears.",
+        "tabIndex": 9
+      },
+      {
+        "dst": "Из него вышел бы <блестящий> лидер какой-нибудь крайней партии\".",
+        "id": "f96e89551eec81f532aff54be33954df",
+        "ref": {
+          "author": "Джозеф Конрад",
+          "title": "Сердце тьмы",
+          "translator": "А.В. Кривцова",
+          "type": "book",
+          "year": 1899
+        },
+        "src": "He would have been a <splendid> leader of an extreme party.'",
+        "tabIndex": 12
+      },
+      {
+        "dst": "Это решение, также как и <восхитительный> энтузиазм молодой жены, по моему скромному мнению, заслуживают всеобщего одобрения.",
+        "id": "1badeed630c0651f779bd21de92af72e",
+        "ref": {
+          "director": "Нагиса Осима",
+          "imdb": "https://www.imdb.com/title/tt0066639/",
+          "orig_title": "Gishiki",
+          "title": "Церемония",
+          "type": "movie",
+          "url": "https://www.kinopoisk.ru/film/160343/"
+        },
+        "src": "This decision, as well as the <splendid> enthusiasm of the young wife in my humble opinion, merit great approval",
+        "tabIndex": 14
+      },
+      {
+        "dst": "<Славное> имение, хороший дом.",
+        "id": "7eef9103d45319311b65b4ed2ce479d5",
+        "ref": {
+          "author": "Федор Михайлович Достоевский",
+          "title": "Бесы",
+          "translator": "Constance Garnett",
+          "type": "book",
+          "year": 1872
+        },
+        "src": "It's a <splendid> estate, a fine house.\"",
+        "tabIndex": 15
+      },
+      {
+        "dst": "Сказочно <великолепно>.",
+        "id": "7197a4b941a2627e00247b977539a6da",
+        "ref": {
+          "director": "Филипп Штёльцль",
+          "imdb": "https://www.imdb.com/title/tt0844457/",
+          "orig_title": "Nordwand",
+          "title": "Северная стена",
+          "type": "movie",
+          "url": "https://www.kinopoisk.ru/film/263310/"
+        },
+        "src": "Fabulously <splendid>.",
+        "tabIndex": 16
+      },
+      {
+        "dst": "- Она привозит <великолепные> подарки.",
+        "id": "06333491cb8b143cd0418c5a5628f0c8",
+        "ref": {
+          "author": "Эрнест Миллер Хемингуэй",
+          "title": "Прощай, оружие!",
+          "translator": "Е.Д. Калашникова",
+          "type": "book",
+          "year": 1929
+        },
+        "src": "\"She brings <splendid> things.",
+        "tabIndex": 0
+      },
+      {
+        "dst": "Он спросил у слуги, стоявшего под перистилем, можно ли видеть барона Нусингена. Лакей почтительно отворил перед ним <роскошную> зеркальную дверь.",
+        "id": "19f0f8aed2672cd615d76a3cb7e8e30c",
+        "ref": {
+          "author": "Оноре де Бальзак",
+          "title": "Блеск и нищета куртизанок",
+          "translator": "James Waring, Нина Яковлева",
+          "type": "book",
+          "year": 1838
+        },
+        "src": "He inquired of the servant who sat on a bench on the steps whether the Baron de Nucingen were at home; and the man respectfully threw open the <splendid> plate-glass doors.",
+        "tabIndex": 1
+      },
+      {
+        "dst": "Белый Клык был в <прекрасном> состоянии.",
+        "id": "e5e680d81590091bfc6b697af107413a",
+        "ref": {
+          "author": "Джек Лондон",
+          "title": "Белый клык",
+          "translator": "Н.А. Волжина",
+          "type": "book",
+          "year": 1906
+        },
+        "src": "White Fang was in <splendid> condition.",
+        "tabIndex": 4
+      },
+      {
+        "dst": "Тем не менее, у него <замечательные> усы.",
+        "id": "682849233e6069e86fc6180687b60ff3",
+        "ref": {
+          "author": "Элизабет Гаскелл",
+          "title": "Север и Юг",
+          "translator": "Григорьева Валентина",
+          "type": "book",
+          "year": 1855
+        },
+        "src": "Nevertheless, his moustachios are <splendid>.",
+        "tabIndex": 5
+      },
+      {
+        "dst": "Пахота была <превосходная>; через два дня можно будет бороновать и сеять.",
+        "id": "7ed38c48bcfb8f61429d435df7097957",
+        "ref": {
+          "author": "Лев Николаевич Толстой",
+          "title": "Анна Каренина",
+          "translator": "Constance Garnett",
+          "type": "book",
+          "year": 1877
+        },
+        "src": "The ploughland was in <splendid> condition; in a couple of days it would be fit for harrowing and sowing.",
+        "tabIndex": 9
+      },
+      {
+        "dst": "Они снисходительно отмечали его в своих страданиях, в лике моря, в обычаях чуждых народов, в славе <блестящих> вождей.",
+        "id": "6bb740f9105b93a08af784b264c2c47b",
+        "ref": {
+          "author": "Конрад Джозеф",
+          "title": "Лорд Джим",
+          "translator": "А.В. Кривцова",
+          "type": "book",
+          "year": 1899
+        },
+        "src": "They recorded it complacently in their sufferings, in the aspect of the seas, in the customs of strange nations, in the glory of <splendid> rulers.",
+        "tabIndex": 12
+      },
+      {
+        "dst": "- Вот как, да, да! - улыбаясь, сказал Борис, - а мы тоже <славный> поход сделали.",
+        "id": "36c9aa521a79aa497da713410db30720",
+        "ref": {
+          "author": "Лев Николаевич Толстой",
+          "title": "Война и мир. Том 3",
+          "translator": "Aylmer Maude, Louise Maude",
+          "type": "book",
+          "year": 1863
+        },
+        "src": "\"Indeed? Yes, yes!\" said Boris, with a smile. \"And we too have had a <splendid> march.",
+        "tabIndex": 15
+      },
+      {
+        "dst": "Я хочу, чтобы у нас была <великолепная> свадьба и чтоб все думали: какая красивая пара.",
+        "id": "1c9adae354567a95da792da614a4c3c0",
+        "ref": {
+          "author": "Эрнест Миллер Хемингуэй",
+          "title": "Прощай, оружие!",
+          "translator": "Е.Д. Калашникова",
+          "type": "book",
+          "year": 1929
+        },
+        "src": "We want to have a <splendid> wedding with every one thinking what a handsome young couple.\"",
+        "tabIndex": 0
+      },
+      {
+        "dst": "Верите ли, на углу Эстрапады стоял <роскошный> экипаж, и в этот экипаж села она!",
+        "id": "51bc64c1fb3ad16fa4951a340ba553c7",
+        "ref": {
+          "author": "Оноре де Бальзак",
+          "title": "Отец Горио",
+          "translator": "Ellen Marriage, Е.Ф. Корш",
+          "type": "book",
+          "year": 1832
+        },
+        "src": "Just imagine it! There was a <splendid> carriage waiting at the corner of the Place de l'Estrapade, and she got into it.\"",
+        "tabIndex": 1
+      },
+      {
+        "dst": "- Но на душе у меня совсем не <прекрасно>, -ответила она, пытаясь изобразить улыбку.",
+        "id": "1938005b822c077f274fecc36d777e1d",
+        "ref": {
+          "author": "Эрих Мария Ремарк",
+          "title": "Три товарища",
+          "translator": "Arthur Wesley Wheen и другие",
+          "type": "book",
+          "year": 1936
+        },
+        "src": "\"I don't feel <splendid>, though,\" she replied with an effort at a smile.",
+        "tabIndex": 4
+      },
+      {
+        "dst": "<Замечательная> идея!",
+        "id": "9b486387e32d23d5ed68da6fcf349e38",
+        "ref": {
+          "author": "Илья Ильф и Евгений Петров",
+          "title": "Золотой телёнок",
+          "translator": "Konstantin Gurevich и другие",
+          "type": "book",
+          "year": 1931
+        },
+        "src": "What a <splendid> idea!\"",
+        "tabIndex": 5
+      },
+      {
+        "dst": "Ты поверишь ли, что я, зная, что он добрый, <превосходный> человек, что я ногтя его не стою, я все-таки ненавижу его.",
+        "id": "fd03ed5546ae6c8339b6e2478be32399",
+        "ref": {
+          "author": "Лев Николаевич Толстой",
+          "title": "Анна Каренина",
+          "translator": "Constance Garnett",
+          "type": "book",
+          "year": 1877
+        },
+        "src": "Would you believe it, that knowing he's a good man, a <splendid> man, that I'm not worth his little finger, still I hate him.",
+        "tabIndex": 9
+      },
+      {
+        "dst": "<Блестящие> доспехи рыцарей покрывались пылью и кровью, а удары мечей и секир оставляли на них вмятины и трещины.",
+        "id": "f62b3a43254c1e86c1a67c14da2d7a3c",
+        "ref": {
+          "author": "Вальтер Скотт",
+          "title": "Айвенго",
+          "translator": "Е.Г. Бекетова",
+          "type": "book",
+          "year": 1819
+        },
+        "src": "The <splendid> armour of the combatants was now defaced with dust and blood, and gave way at every stroke of the sword and battle-axe.",
+        "tabIndex": 12
+      },
+      {
+        "dst": "А отец у тебя <славный> малый.",
+        "id": "6dbc7cffaf2ba082ff4a4a0a50d1cffc",
+        "ref": {
+          "author": "Иван Сергеевич Тургенев",
+          "title": "Отцы и дети",
+          "translator": "Richard Hare",
+          "type": "book",
+          "year": 1862
+        },
+        "src": "But your father is a <splendid> fellow.",
+        "tabIndex": 15
+      },
+      {
+        "dst": "При свете дорогих канделябров с бесчисленным множеством свечей сверкали мельчайшие детали золоченых фризов, тонкая чеканка бронзы и <роскошные> краски мебели.",
+        "id": "b96b5cea6fd03cc8bf9169169e620092",
+        "ref": {
+          "author": "Оноре де Бальзак",
+          "title": "Шагреневая кожа",
+          "translator": "Борис Грифцов",
+          "type": "book",
+          "year": 1830
+        },
+        "src": "Countless wax tapers set in handsome candelabra lit up the slightest details of gilded friezes, the delicate bronze sculpture, and the <splendid> colors of the furniture.",
+        "tabIndex": 1
+      },
+      {
+        "dst": "- У вас <блестящая> память, - сказал я.",
+        "id": "a2051741bab81c5d728e62c878d20c51",
+        "ref": {
+          "author": "Эрих Мария Ремарк",
+          "title": "Три товарища",
+          "translator": "Arthur Wesley Wheen и другие",
+          "type": "book",
+          "year": 1936
+        },
+        "src": "\"You have a <splendid> memory,\" said I.",
+        "tabIndex": 12
+      },
+      {
+        "dst": "- Какую я тебе <славную> лошадь приготовил! -начал он, - ты увидишь.",
+        "id": "c380757c78f2c1d244ef774c47ce90ec",
+        "ref": {
+          "author": "Иван Сергеевич Тургенев",
+          "title": "Отцы и дети",
+          "translator": "Richard Hare",
+          "type": "book",
+          "year": 1862
+        },
+        "src": "\"I've got a <splendid> horse for you,\" he began. \"You will see for yourself.",
+        "tabIndex": 15
+      },
+      {
+        "dst": "Ты будешь <отлично смотреться> в кинохронике.",
+        "id": "c16ac4951af4c8a09fc8a48f8aa5aae1",
+        "ref": {
+          "author": "Айн Рэнд",
+          "title": "Источник",
+          "translator": "Д. В. Костыгин",
+          "type": "book",
+          "year": 1943
+        },
+        "src": "You'll be <splendid> in those newsreels.\"",
+        "tabIndex": 20
+      },
+      {
+        "dst": "<Отличный> малый этот янки - один из стойких патриотов, продававших мне мушкеты и кринолины для Конфедерации.",
+        "id": "a77b244066d786a7b6cadb184e0940ca",
+        "ref": {
+          "author": "Маргарет Митчелл",
+          "title": "Унесенные ветром. Том 2",
+          "translator": "Татьяна Кудрявцева",
+          "type": "book",
+          "year": 1936
+        },
+        "src": "A <splendid> fellow--one of the staunch Union patriots from whom I used to buy muskets and hoop skirts for the Confederacy.",
+        "tabIndex": 20
+      },
+      {
+        "dst": "У него был <недюжинный> ум.",
+        "id": "a87201ede9a1abc195815704ccbe9623",
+        "ref": {
+          "author": "Джек Лондон",
+          "title": "Межзвездный скиталец",
+          "translator": "Семен Григорьевич Займовский",
+          "type": "book",
+          "year": 1915
+        },
+        "src": "And he had a <splendid> mind.",
+        "tabIndex": 20
+      },
+      {
+        "dst": "Ленты на чепце мисс Хорокс стали <роскошнее>, чем когда-либо.",
+        "id": "202041792cc91e9e4c512bcd9e35b714",
+        "ref": {
+          "author": "Уильям Мейкпис Теккерей",
+          "title": "Ярмарка тщеславия",
+          "translator": "Михаил Алексеевич Дьяконов",
+          "type": "book",
+          "year": 1848
+        },
+        "src": "The ribbons in Miss Horrocks's cap became more <splendid> than ever.",
+        "tabIndex": 20
+      },
+      {
+        "dst": "- Чечевичный суп - какая <роскошь>!",
+        "id": "74acc70617c0ab084e94aa588be63b9d",
+        "ref": {
+          "author": "Эрих Мария Ремарк",
+          "title": "Время жить и время умирать",
+          "translator": "Denver Lindley и другие",
+          "type": "book",
+          "year": 1954
+        },
+        "src": "\"Lentil soup will be <splendid>.",
+        "tabIndex": 20
+      },
+      {
+        "dst": "Не правда ли, <бесподобно>?",
+        "id": "51eadb07f56bd01fd8bd3bd6f6793353",
+        "ref": {
+          "author": "Борис Леонидович Пастернак",
+          "title": "Доктор Живаго",
+          "translator": "Manya Harari, Max Hayward",
+          "type": "book",
+          "year": 1945
+        },
+        "src": "<Splendid>, isn't it?",
+        "tabIndex": 20
+      },
+      {
+        "dst": "- Ты <блестяще> выглядишь, - удивленно сказал я.",
+        "id": "9433b91880d720597fd8f7aa52a14ace",
+        "ref": {
+          "author": "Эрих Мария Ремарк",
+          "title": "Три товарища",
+          "translator": "Arthur Wesley Wheen и другие",
+          "type": "book",
+          "year": 1936
+        },
+        "src": "\"You look <splendid>,\" said I surprised.",
+        "tabIndex": 20
+      },
+      {
+        "dst": "Все было чудесно - дождь, город, хмель. Все было так огромно и <прекрасно>!",
+        "id": "619ebb8cf1b8f504bc0bd2fd29cb53ac",
+        "ref": {
+          "author": "Эрих Мария Ремарк",
+          "title": "Три товарища",
+          "translator": "Arthur Wesley Wheen и другие",
+          "type": "book",
+          "year": 1936
+        },
+        "src": "Everything was grand, the rain, the city, the drink, everything wide and <splendid>.",
+        "tabIndex": 20
+      },
+      {
+        "dst": "Он хотел следовать во всем за Сиддхартхой, за любимым, <чудным>.",
+        "id": "b29cc14cfabdd856122be7e8d7ee62f4",
+        "ref": {
+          "author": "Герман Гессе",
+          "title": "Сиддхартха",
+          "translator": "Б.Д.Прозоровская",
+          "type": "book",
+          "year": 1919
+        },
+        "src": "He wanted to follow Siddhartha, the beloved, the <splendid>.",
+        "tabIndex": 20
+      },
+      {
+        "dst": "Это будет <отлично>.",
+        "id": "0f13aa3eb4598e67a33cdd2dfd014831",
+        "ref": {
+          "author": "Лев Николаевич Толстой",
+          "title": "Анна Каренина",
+          "translator": "Constance Garnett",
+          "type": "book",
+          "year": 1877
+        },
+        "src": "That will be <splendid>.",
+        "tabIndex": 20
+      },
+      {
+        "dst": "- А я так перевьючил себе всё, что мне нужно, на двух лошадей, - сказал Несвицкий, - и вьюки <отличные> мне сделали. Хоть через Богемские горы удирать.",
+        "id": "0334bf3f004157728d01d6a6f218c74e",
+        "ref": {
+          "author": "Лев Николаевич Толстой",
+          "title": "Война и мир. Том 2",
+          "translator": "Aylmer Maude, Louise Maude",
+          "type": "book",
+          "year": 1863
+        },
+        "src": "\"Well, I have got all I need into packs for two horses,\" said Nesvitski. \"They've made up <splendid> packs for me-fit to cross the Bohemian mountains with.",
+        "tabIndex": 20
+      },
+      {
+        "dst": "Это было <великолепное зрелище>.",
+        "id": "ec99e6ab7ba3aff80fbe021a3c47abce",
+        "ref": {
+          "author": "Виктор Гюго",
+          "title": "Отверженные",
+          "translator": "Вильгельм Левик и другие",
+          "type": "book",
+          "year": 1862
+        },
+        "src": "It was <splendid>.",
+        "tabIndex": 20
+      },
+      {
+        "dst": "- Ну и <прекрасно>.",
+        "id": "06c50d0d27fe8f1adf940f912c9a09d2",
+        "ref": {
+          "author": "Иван Сергеевич Тургенев",
+          "title": "Отцы и дети",
+          "translator": "Richard Hare",
+          "type": "book",
+          "year": 1862
+        },
+        "src": "\"Well, that's <splendid>.",
+        "tabIndex": 20
+      },
+      {
+        "dst": "- Так! - сказал он, ударяя рукой по депеше. - У меня есть подлог, три кражи, два поджога, мне не хватало только убийства, вот и оно; сессия будет <отличная>.",
+        "id": "bb962f6112794bd93787c2cc2372d048",
+        "ref": {
+          "author": "Александр Дюма",
+          "title": "Граф Монте-Кристо",
+          "translator": "Владимир Строев",
+          "type": "book",
+          "year": 1844
+        },
+        "src": "\"Come, I had a forgery, three robberies, and two cases of arson, I only wanted a murder, and here it is. It will be a <splendid> session!\"",
+        "tabIndex": 20
+      },
+      {
+        "dst": "- <Знатный> был человек!",
+        "id": "1ae11cec2a4774105d0e598b422294f6",
+        "ref": {
+          "author": "Николай Васильевич Гоголь",
+          "title": "Вий",
+          "translator": "Claud Field",
+          "type": "book",
+          "year": 1835
+        },
+        "src": "\"A <splendid> fellow!",
+        "tabIndex": 20
+      },
+      {
+        "dst": "Сплошные <отменные> ответы.",
+        "id": "12ae53a45eb0a43a3bd90d3ac323ccd4",
+        "ref": {
+          "director": "Ian Lorimer",
+          "imdb": "https://www.imdb.com/title/tt1731897/",
+          "orig_title": "QI",
+          "title": "КьюАй. Весьма интересно",
+          "type": "series",
+          "url": "https://www.kinopoisk.ru/film/493902/"
+        },
+        "src": "<Splendid> answers all round.",
+        "tabIndex": 20
+      }
+    ]
+  }
+}

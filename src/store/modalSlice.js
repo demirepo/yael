@@ -1,14 +1,16 @@
-import { wordApi } from "../api/api";
-import { createSlice } from "@reduxjs/toolkit";
+import { wordApi } from '../api/api';
+import { createSlice } from '@reduxjs/toolkit';
 
 const modalSlice = createSlice({
-  name: "modal",
+  name: 'modal',
+
   initialState: {
     showContextModal: false,
     showSettingsModal: false,
     buttonMenu: false,
     word: {},
   },
+
   reducers: {
     toggleContextModal: (state) => {
       state.showContextModal = state.showContextModal ? false : true;
@@ -29,6 +31,7 @@ const modalSlice = createSlice({
 });
 
 export const { actions, reducer } = modalSlice;
+
 export const {
   toggleSettingsModal,
   toggleContextModal,
@@ -36,10 +39,10 @@ export const {
   deactivateButtonMenu,
   setTrans,
 } = actions;
+
 export default reducer;
 
-export const dictLookup = (text, sid, yu, yum) => async (dispatch) => {
+export const getTranslation = (text, sid, yu, yum) => async (dispatch) => {
   const data = await wordApi.getTrans(text, sid, yu, yum);
   dispatch(setTrans(data));
-  console.log(data);
 };

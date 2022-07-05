@@ -14,6 +14,7 @@ import MenuItem from '@mui/material/MenuItem';
 import AdbIcon from '@mui/icons-material/Adb';
 import { getAuth, signOut } from 'firebase/auth';
 import { useNavigate } from 'react-router';
+import { Link } from 'react-router-dom';
 
 const Header = ({ isAuth }) => {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
@@ -130,8 +131,17 @@ const Header = ({ isAuth }) => {
           >
             YanLeo
           </Typography>
-          <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
+          <Box
+            sx={{
+              flexGrow: 1,
+              justifyContent: 'center',
+              gap: '50px',
+              display: { xs: 'none', md: 'flex' },
+            }}
+          >
             <Button
+              component={Link}
+              to='/'
               key={'Поиск'}
               onClick={handleCloseNavMenu}
               sx={{ my: 2, color: 'white', display: 'block' }}
@@ -139,6 +149,8 @@ const Header = ({ isAuth }) => {
               {'Поиск'}
             </Button>
             <Button
+              component={Link}
+              to='/'
               key={'Словарь'}
               onClick={handleCloseNavMenu}
               sx={{ my: 2, color: 'white', display: 'block' }}
@@ -146,6 +158,8 @@ const Header = ({ isAuth }) => {
               {'Словарь'}
             </Button>
             <Button
+              component={Link}
+              to='/'
               key={'Тренировки'}
               onClick={handleCloseNavMenu}
               sx={{ my: 2, color: 'white', display: 'block' }}

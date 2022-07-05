@@ -1,8 +1,19 @@
 import { render, screen } from '@testing-library/react';
-import App from './App';
+import { Provider } from 'react-redux';
+import { store } from './store/store';
+import { BrowserRouter } from 'react-router-dom';
+import Header from './components/Header/Header';
 
-test('renders learn react link', () => {
-  render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+describe('header component', () => {
+  test('renders header component', () => {
+    render(
+      <Provider store={store}>
+        <BrowserRouter>
+          <Header />
+        </BrowserRouter>
+      </Provider>
+    );
+    const title = screen.getAllByText(/YanLeo/i)[0];
+    expect(title).toBeInTheDocument();
+  });
 });

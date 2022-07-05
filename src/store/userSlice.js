@@ -60,7 +60,6 @@ export const checkAuth = () => (dispatch) => {
   const auth = getAuth();
   onAuthStateChanged(auth, (user) => {
     if (user) {
-      console.log(user);
       const { uid, email } = user;
       dispatch(setUser({ uid, email }));
     } else {
