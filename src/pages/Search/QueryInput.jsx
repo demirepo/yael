@@ -1,7 +1,7 @@
 import React from 'react';
 import { Button, Grid, TextField } from '@mui/material';
 
-const SearchInput = ({ handleClick, setQuery, query }) => {
+const QueryInput = ({ handleClick, setQuery, query }) => {
   return (
     <div>
       <Grid
@@ -22,7 +22,7 @@ const SearchInput = ({ handleClick, setQuery, query }) => {
           autoFocus
         ></TextField>
         <Button
-          sx={{ alignSelf: 'start', padding: '16.5px' }}
+          sx={{ alignSelf: 'start', padding: '16.5px', marginLeft: '20px' }}
           onClick={handleClick}
         >
           Перевести
@@ -32,4 +32,4 @@ const SearchInput = ({ handleClick, setQuery, query }) => {
   );
 };
 
-export default SearchInput;
+export default QueryInput;

@@ -14,14 +14,14 @@ import HeaderUserMenu from './HeaderUserMenu';
 const Header = ({ isAuth }) => {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
   const [anchorElUser, setAnchorElUser] = React.useState(null);
-  const navigator = useNavigate();
+  const navigate = useNavigate();
 
   const handleLogout = () => {
     const auth = getAuth();
     signOut(auth)
       .then(() => {
         console.log('Redirect to main');
-        navigator('/');
+        navigate('/search');
       })
       .catch((error) => {
         console.log('Error while logging out', error.message);

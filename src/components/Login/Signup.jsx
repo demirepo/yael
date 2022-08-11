@@ -9,6 +9,7 @@ export default function Signup() {
   const signup = (email, pass) => {
     dispatch(signupThunk(email, pass));
   };
+  signup();
 
   return (
     <div style={{ padding: 15 }}>
