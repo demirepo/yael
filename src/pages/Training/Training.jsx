@@ -1,5 +1,5 @@
 import React from 'react';
-import RoundMenuButton from '../components/RoundMenuButton/RoundMenuButton';
+import RoundMenuButton from '../../components/RoundMenuButton/RoundMenuButton';
 
 const Training = () => {
   return <RoundMenuButton />;

@@ -6,9 +6,9 @@ import { useDispatch, useSelector } from 'react-redux';
 import { checkAuth } from './store/userSlice';
 import Search from './pages/Search/Search';
 import Header from './components/Header/Header';
-import Reader from './pages/Reader';
-import Dictionary from './pages/Dictionary';
-import Training from './pages/Training';
+import Reader from './pages/Reader/Reader';
+import Dictionary from './pages/Dictionary/Dictionary';
+import Training from './pages/Training/Training';
 
 function App() {
   const dispatch = useDispatch();

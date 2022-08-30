@@ -1,6 +1,6 @@
 import React from 'react';
 import { Routes } from 'react-router';
-import RoundMenuButton from '../components/RoundMenuButton/RoundMenuButton';
+import RoundMenuButton from '../../components/RoundMenuButton/RoundMenuButton';
 
 const Dictionary = () => {
   return (
