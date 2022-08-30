@@ -7,13 +7,15 @@ import {
   Tooltip,
   Typography,
 } from '@mui/material';
-import React from 'react';
+import LogoutIcon from '@mui/icons-material/Logout';
+import SettingsIcon from '@mui/icons-material/Settings';
 
-const HeaderAvatarMenu = ({
+const HeaderUserMenu = ({
   handleOpenUserMenu,
   anchorElUser,
   handleCloseUserMenu,
   handleLogout,
+  handleOpenSettingsModal,
 }) => {
   return (
     <div>
@@ -40,10 +42,13 @@ const HeaderAvatarMenu = ({
           open={Boolean(anchorElUser)}
           onClose={handleCloseUserMenu}
         >
-          <MenuItem key={'logout'} onClick={handleCloseUserMenu}>
-            <Typography onClick={handleLogout} textAlign='center'>
-              Logout
-            </Typography>
+          <MenuItem key={'settings'} onClick={handleOpenSettingsModal}>
+            <SettingsIcon sx={{ mr: 1 }}></SettingsIcon>
+            <Typography textAlign='center'>Настройки</Typography>
+          </MenuItem>
+          <MenuItem key={'logout'} onClick={handleLogout}>
+            <LogoutIcon sx={{ mr: 1 }}></LogoutIcon>
+            <Typography textAlign='center'>Выйти</Typography>
           </MenuItem>
         </Menu>
       </Box>
@@ -51,4 +56,4 @@ const HeaderAvatarMenu = ({
   );
 };
 
-export default HeaderAvatarMenu;
+export default HeaderUserMenu;

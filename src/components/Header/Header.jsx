@@ -10,13 +10,15 @@ import HeaderLogo from './HeaderLogo';
 import HeaderMenu from './HeaderMenu';
 import HeaderLinks from './HeaderLinks';
 import HeaderUserMenu from './HeaderUserMenu';
+import SettingsModal from '../SettingsModal/SettingsModal';
 
 const Header = ({ isAuth }) => {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
   const [anchorElUser, setAnchorElUser] = React.useState(null);
+  const [showSettingsModal, setShowSettingsModal] = React.useState(false);
   const navigate = useNavigate();
 
-  const handleLogout = () => {
+  const logout = () => {
     const auth = getAuth();
     signOut(auth)
       .then(() => {
@@ -31,18 +33,29 @@ const Header = ({ isAuth }) => {
   const handleOpenNavMenu = (event) => {
     setAnchorElNav(event.currentTarget);
   };
-
-  const handleOpenUserMenu = (event) => {
-    setAnchorElUser(event.currentTarget);
-  };
-
   const handleCloseNavMenu = () => {
     setAnchorElNav(null);
   };
 
+  const handleOpenUserMenu = (event) => {
+    setAnchorElUser(event.currentTarget);
+  };
   const handleCloseUserMenu = () => {
     setAnchorElUser(null);
-    handleLogout();
+  };
+
+  const handleLogout = () => {
+    logout();
+    handleCloseUserMenu();
+  };
+
+  const handleOpenSettingsModal = () => {
+    setShowSettingsModal(true);
+    handleCloseUserMenu();
+  };
+  const handleCloseSettingsModal = () => {
+    setShowSettingsModal(false);
+    handleCloseUserMenu();
   };
 
   return (
@@ -83,9 +96,16 @@ const Header = ({ isAuth }) => {
             handleCloseUserMenu={handleCloseUserMenu}
             anchorElUser={anchorElUser}
             handleLogout={handleLogout}
+            handleOpenSettings={handleOpenSettingsModal}
+            handleOpenSettingsModal={handleOpenSettingsModal}
           />
         </Toolbar>
       </Container>
+
+      <SettingsModal
+        showSettingsModal={showSettingsModal}
+        handleCloseSettingsModal={handleCloseSettingsModal}
+      />
     </AppBar>
   );
 };
