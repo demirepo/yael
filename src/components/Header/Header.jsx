@@ -11,11 +11,16 @@ import HeaderMenu from './HeaderMenu';
 import HeaderLinks from './HeaderLinks';
 import HeaderUserMenu from './HeaderUserMenu';
 import SettingsModal from '../SettingsModal/SettingsModal';
+import { getServerAddress } from './../../store/settingsSelectors';
+import { useAppSelector } from '../../hooks/redux';
 
 const Header = ({ isAuth }) => {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
   const [anchorElUser, setAnchorElUser] = React.useState(null);
   const [showSettingsModal, setShowSettingsModal] = React.useState(false);
+
+  const serverAddress = useAppSelector(getServerAddress);
+
   const navigate = useNavigate();
 
   const logout = () => {
@@ -105,6 +110,7 @@ const Header = ({ isAuth }) => {
       <SettingsModal
         showSettingsModal={showSettingsModal}
         handleCloseSettingsModal={handleCloseSettingsModal}
+        serverAddress={serverAddress}
       />
     </AppBar>
   );

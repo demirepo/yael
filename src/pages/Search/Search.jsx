@@ -1,6 +1,5 @@
 import React from 'react';
 import Container from '@mui/material/Container';
-import { useDispatch } from 'react-redux';
 import { getTranslationThunk } from '../../store/dictSlice';
 import { useSelector } from 'react-redux';
 import { getExamplesThunk } from '../../store/dictSlice';
@@ -8,11 +7,12 @@ import { getHighlightedFragment } from '../../helpers/getHighlighted';
 import QueryInput from './QueryInput';
 import Examples from './Examples';
 import * as dictSelectors from '../../store/dictSelectors';
+import { useAppDispatch } from '../../hooks/redux';
 
 const Search = () => {
   const [query, setQuery] = React.useState('');
 
-  const dispatch = useDispatch();
+  const dispatch = useAppDispatch();
 
   // const translation = useSelector(getTranslation);
   const examples = useSelector(dictSelectors.getExamples);

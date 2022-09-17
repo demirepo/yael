@@ -1,12 +1,12 @@
 import { Menu, MenuItem } from '@mui/material';
 import { Delete, Edit } from '@mui/icons-material';
 
-type IdiomaMenuProps = {
+interface IdiomaMenuProps {
   anchorEl: any;
   handleClose: () => void;
-};
+}
 
-const IdiomaMenu: React.FC<IdiomaMenuProps> = ({ anchorEl, handleClose }) => {
+const IdiomaMenu = ({ anchorEl, handleClose }: IdiomaMenuProps) => {
   const open = Boolean(anchorEl);
 
   const handleEdit = () => {

@@ -6,8 +6,8 @@ import IdiomaTable from './IdiomaTable';
 
 const Dictionary = () => {
   const [wods, setWods] = React.useState([]);
-  const [choosen, setChoosen] = React.useState('');
-  const [anchorEl, setAnchorEl] = React.useState<unknown>(null);
+  const [, setChoosen] = React.useState('');
+  const [anchorEl, setAnchorEl] = React.useState<EventTarget | null>(null);
 
   const handleClose = () => {
     setAnchorEl(null);

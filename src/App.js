@@ -2,17 +2,17 @@ import { Route, Routes } from 'react-router';
 import './App.css';
 import Signup from './components/Login/Signup';
 import Signin from './pages/Signin';
-import { useDispatch, useSelector } from 'react-redux';
 import { checkAuth } from './store/userSlice';
 import Search from './pages/Search/Search';
 import Header from './components/Header/Header';
 import Reader from './pages/Reader/Reader';
 import Dictionary from './pages/Dictionary/Dictionary';
 import Training from './pages/Training/Training';
+import { useAppDispatch, useAppSelector } from './hooks/redux';
 
 function App() {
-  const dispatch = useDispatch();
-  const isAuth = !!useSelector((state) => state.user.loggedUser.email);
+  const dispatch = useAppDispatch();
+  const isAuth = !!useAppSelector((state) => state.user.loggedUser.email);
   !isAuth && dispatch(checkAuth());
 
   return (

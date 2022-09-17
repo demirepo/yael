@@ -1,6 +1,9 @@
-import { Typography } from '@mui/material';
 import Box from '@mui/material/Box';
 import Modal from '@mui/material/Modal';
+import TextField from '@mui/material/TextField';
+import { useForm } from 'react-hook-form';
+import Typography from '@mui/material/Typography';
+import { Divider, Grid, Stack } from '@mui/material';
 
 const style = {
   position: 'absolute',
@@ -13,24 +16,48 @@ const style = {
   p: 4,
 };
 
-type SettingsModalProps = {
+interface SettingsModalProps {
   showSettingsModal: boolean;
+  serverAddress: string;
   handleCloseSettingsModal: () => void;
-};
+}
 
-const SettingsModal: React.FC<SettingsModalProps> = ({
+const SettingsModal = ({
   showSettingsModal,
   handleCloseSettingsModal,
-}) => {
+  serverAddress,
+}: SettingsModalProps) => {
+  const { register, handleSubmit } = useForm();
+
+  const onSubmit = (data: any) => console.log(data);
+
   return (
     <>
-      <Modal open={showSettingsModal} onClose={handleCloseSettingsModal}>
-        <Box sx={style}>
-          <Typography variant='h6' component='h2'>
-            Text in a modal
-          </Typography>
-        </Box>
-      </Modal>
+      <form onSubmit={handleSubmit(onSubmit)}>
+        <Modal open={showSettingsModal} onClose={handleCloseSettingsModal}>
+          <Box sx={style}>
+            <Typography sx={{ textAlign: 'center' }} variant='h5'>
+              Настройки
+            </Typography>
+            <Stack
+              divider={<Divider orientation='horizontal' flexItem />}
+              spacing={2}
+            >
+              <Grid container></Grid>
+              <TextField
+                variant='outlined'
+                defaultValue={serverAddress}
+                {...register('example')}
+              ></TextField>
+              <TextField
+                variant='outlined'
+                defaultValue={serverAddress}
+                {...register('example')}
+              ></TextField>
+            </Stack>
+          </Box>
+        </Modal>
+      </form>
     </>
   );
 };

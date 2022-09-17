@@ -12,12 +12,12 @@ import {
 } from '@mui/material';
 import { Box } from '@mui/system';
 
-type Wod = {
+interface Wod {
   id: number;
   src: string;
   dst: string;
   dst_extended: string;
-};
+}
 
 const IdiomaTable = ({ wods, chooseClicked }: any) => {
   return (
