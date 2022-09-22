@@ -1,15 +1,20 @@
 import React from 'react';
 import Container from '@mui/material/Container';
-import { getTranslationThunk } from '../../store/dictSlice';
-import { useSelector } from 'react-redux';
-import { getExamplesThunk } from '../../store/dictSlice';
-import { getHighlightedFragment } from '../../helpers/getHighlighted';
+
+import {useSelector} from 'react-redux';
+
+import {getTranslationThunk, getExamplesThunk} from '../../store/dictSlice';
+
+import {getHighlightedFragment} from '../../helpers/getHighlighted';
+
+import * as dictSelectors from '../../store/dictSelectors';
+
+import {useAppDispatch} from '../../hooks/redux';
+
 import QueryInput from './QueryInput';
 import Examples from './Examples';
-import * as dictSelectors from '../../store/dictSelectors';
-import { useAppDispatch } from '../../hooks/redux';
 
-const Search = () => {
+function Search() {
   const [query, setQuery] = React.useState('');
 
   const dispatch = useAppDispatch();
@@ -31,8 +36,8 @@ const Search = () => {
   React.useEffect(() => {
     const examples = examplesRef.current?.children;
     if (examples) {
-      for (let example of examples) {
-        for (let el of example.children) {
+      for (const example of examples) {
+        for (const el of example.children) {
           el.innerHTML = getHighlightedFragment(el.innerText);
         }
       }
@@ -53,6 +58,6 @@ const Search = () => {
       {showExamples && <Examples examples={examples} />}
     </Container>
   );
-};
+}
 
 export default Search;

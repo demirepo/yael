@@ -1,16 +1,12 @@
-import React from 'react';
-import { Box } from '@mui/material';
-import { IconButton } from '@mui/material';
-import { Menu } from '@mui/material';
-import { MenuItem } from '@mui/material';
-import { Typography } from '@mui/material';
+import {Box, IconButton, Menu, MenuItem, Typography} from '@mui/material';
+
 import MenuIcon from '@mui/icons-material/Menu';
 import AdbIcon from '@mui/icons-material/Adb';
 
-const HeaderMenu = ({ handleOpenNavMenu, anchorElNav, handleCloseNavMenu }) => {
+function HeaderMenu({handleOpenNavMenu, anchorElNav, handleCloseNavMenu}) {
   return (
     <>
-      <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
+      <Box sx={{flexGrow: 1, display: {xs: 'flex', md: 'none'}}}>
         <IconButton
           size='large'
           aria-label='account of current user'
@@ -36,23 +32,23 @@ const HeaderMenu = ({ handleOpenNavMenu, anchorElNav, handleCloseNavMenu }) => {
           open={Boolean(anchorElNav)}
           onClose={handleCloseNavMenu}
           sx={{
-            display: { xs: 'block', md: 'none' },
+            display: {xs: 'block', md: 'none'},
           }}
         >
-          <MenuItem key={'Поиск'} onClick={handleCloseNavMenu}>
-            <Typography textAlign='center'>{'Поиск'}</Typography>
+          <MenuItem key='Поиск' onClick={handleCloseNavMenu}>
+            <Typography textAlign='center'>Поиск</Typography>
           </MenuItem>
-          <MenuItem key={'Словарь'} onClick={handleCloseNavMenu}>
-            <Typography textAlign='center'>{'Словарь'}</Typography>
+          <MenuItem key='Словарь' onClick={handleCloseNavMenu}>
+            <Typography textAlign='center'>Словарь</Typography>
           </MenuItem>
-          <MenuItem key={'Тренировки'} onClick={handleCloseNavMenu}>
-            <Typography textAlign='center'>{'Тренировки'}</Typography>
+          <MenuItem key='Тренировки' onClick={handleCloseNavMenu}>
+            <Typography textAlign='center'>Тренировки</Typography>
           </MenuItem>
         </Menu>
       </Box>
-      <AdbIcon sx={{ display: { xs: 'flex', md: 'none' }, mr: 1 }} />
+      <AdbIcon sx={{display: {xs: 'flex', md: 'none'}, mr: 1}} />
     </>
   );
-};
+}
 
 export default HeaderMenu;

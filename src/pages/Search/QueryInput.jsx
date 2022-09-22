@@ -1,28 +1,27 @@
-import React from 'react';
-import { Button, Grid, TextField } from '@mui/material';
+import {Button, Grid, TextField} from '@mui/material';
 
-const QueryInput = ({ handleClick, setQuery, query }) => {
+function QueryInput({handleClick, setQuery, query}) {
   return (
     <div>
       <Grid
-        component={'form'}
+        component='form'
         onSubmit={(e) => {
           e.preventDefault();
           handleClick();
         }}
-        sx={{ display: 'flex', alignContent: 'center' }}
+        sx={{display: 'flex', alignContent: 'center'}}
         mb={2}
       >
         <TextField
           value={query}
           fullWidth
           onChange={(e) => setQuery(e.target.value)}
-          helperText={'Введите слово для перевода'}
+          helperText='Введите слово для перевода'
           autoComplete='off'
           autoFocus
-        ></TextField>
+        />
         <Button
-          sx={{ alignSelf: 'start', padding: '16.5px', marginLeft: '20px' }}
+          sx={{alignSelf: 'start', padding: '16.5px', marginLeft: '20px'}}
           onClick={handleClick}
         >
           Перевести
@@ -30,6 +29,6 @@ const QueryInput = ({ handleClick, setQuery, query }) => {
       </Grid>
     </div>
   );
-};
+}
 
 export default QueryInput;

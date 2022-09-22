@@ -1,4 +1,6 @@
-import { createSlice } from '@reduxjs/toolkit';
+/* eslint no-param-reassign: 0 */
+
+import {createSlice} from '@reduxjs/toolkit';
 
 interface ISettings {
   serverAddress: string;
@@ -18,6 +20,6 @@ const userSlice = createSlice({
   },
 });
 
-export const { actions, reducer } = userSlice;
-export const { setServerAddress } = actions;
+export const {actions, reducer} = userSlice;
+export const {setServerAddress} = actions;
 export default reducer;

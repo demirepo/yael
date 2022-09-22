@@ -1,10 +1,12 @@
 import axios from 'axios';
 import React from 'react';
+
 import RoundMenuButton from '../../components/RoundMenuButton/RoundMenuButton';
+
 import IdiomaContextMenu from './IdiomaContextMenu';
 import IdiomaTable from './IdiomaTable';
 
-const Dictionary = () => {
+function Dictionary() {
   const [wods, setWods] = React.useState([]);
   const [, setChoosen] = React.useState('');
   const [anchorEl, setAnchorEl] = React.useState<EventTarget | null>(null);
@@ -14,7 +16,7 @@ const Dictionary = () => {
   };
   const handleClick = (e: React.MouseEvent<HTMLElement>) => {
     const row = (e.target as HTMLElement).closest('.MuiButtonBase-root');
-    if (row) {
+    if (row != null) {
       const id = row.children[0].innerHTML.toString();
       setChoosen(id);
       setAnchorEl(e.target);
@@ -47,6 +49,6 @@ const Dictionary = () => {
       <RoundMenuButton />;
     </>
   );
-};
+}
 
 export default Dictionary;

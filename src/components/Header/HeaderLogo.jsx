@@ -1,11 +1,10 @@
-import React from 'react';
 import AdbIcon from '@mui/icons-material/Adb';
-import { Typography } from '@mui/material';
+import {Typography} from '@mui/material';
 
-const Logo = () => {
+function Logo() {
   return (
     <>
-      <AdbIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} />
+      <AdbIcon sx={{display: {xs: 'none', md: 'flex'}, mr: 1}} />
       <Typography
         variant='h6'
         noWrap
@@ -13,7 +12,7 @@ const Logo = () => {
         href='/'
         sx={{
           mr: 2,
-          display: { xs: 'none', md: 'flex' },
+          display: {xs: 'none', md: 'flex'},
           fontFamily: 'roboto',
           fontWeight: 700,
           letterSpacing: '.3rem',
@@ -25,6 +24,6 @@ const Logo = () => {
       </Typography>
     </>
   );
-};
+}
 
 export default Logo;

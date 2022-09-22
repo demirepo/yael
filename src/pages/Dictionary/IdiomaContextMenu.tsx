@@ -1,12 +1,12 @@
-import { Menu, MenuItem } from '@mui/material';
-import { Delete, Edit } from '@mui/icons-material';
+import {Menu, MenuItem} from '@mui/material';
+import {Delete, Edit} from '@mui/icons-material';
 
 interface IdiomaMenuProps {
   anchorEl: any;
   handleClose: () => void;
 }
 
-const IdiomaMenu = ({ anchorEl, handleClose }: IdiomaMenuProps) => {
+function IdiomaMenu({anchorEl, handleClose}: IdiomaMenuProps) {
   const open = Boolean(anchorEl);
 
   const handleEdit = () => {
@@ -27,13 +27,15 @@ const IdiomaMenu = ({ anchorEl, handleClose }: IdiomaMenuProps) => {
       }}
     >
       <MenuItem onClick={handleEdit}>
-        <Edit sx={{ mr: 2 }}></Edit>Edit
+        <Edit sx={{mr: 2}} />
+        Edit
       </MenuItem>
       <MenuItem onClick={handleDelete}>
-        <Delete sx={{ mr: 2 }}></Delete>Remove
+        <Delete sx={{mr: 2}} />
+        Remove
       </MenuItem>
     </Menu>
   );
-};
+}
 
 export default IdiomaMenu;

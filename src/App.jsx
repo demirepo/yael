@@ -1,14 +1,15 @@
-import { Route, Routes } from 'react-router';
+import {Route, Routes} from 'react-router-dom';
+
 import './App.css';
 import Signup from './components/Login/Signup';
 import Signin from './pages/Signin';
-import { checkAuth } from './store/userSlice';
+import {checkAuth} from './store/userSlice';
 import Search from './pages/Search/Search';
 import Header from './components/Header/Header';
 import Reader from './pages/Reader/Reader';
 import Dictionary from './pages/Dictionary/Dictionary';
 import Training from './pages/Training/Training';
-import { useAppDispatch, useAppSelector } from './hooks/redux';
+import {useAppDispatch, useAppSelector} from './hooks/redux';
 
 function App() {
   const dispatch = useAppDispatch();
@@ -17,10 +18,9 @@ function App() {
 
   return (
     <>
-      <Header isAuth={isAuth}></Header>
+      <Header isAuth={isAuth} />
       <Routes>
         <Route index element={<Search />} />
-
         {isAuth ? (
           <Route path='/' element={<Search />} />
         ) : (

@@ -10,24 +10,24 @@ import {
 import LogoutIcon from '@mui/icons-material/Logout';
 import SettingsIcon from '@mui/icons-material/Settings';
 
-const HeaderUserMenu = ({
+function HeaderUserMenu({
   handleOpenUserMenu,
   anchorElUser,
   handleCloseUserMenu,
   handleLogout,
   handleOpenSettingsModal,
-}) => {
+}) {
   return (
     <div>
-      <Box sx={{ flexGrow: 0 }}>
+      <Box sx={{flexGrow: 0}}>
         <Tooltip title='Open settings'>
-          <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
+          <IconButton onClick={handleOpenUserMenu} sx={{p: 0}}>
             <Avatar alt='Demi' src='/static/images/avatar/2.jpg' />
           </IconButton>
         </Tooltip>
 
         <Menu
-          sx={{ mt: '45px' }}
+          sx={{mt: '45px'}}
           id='menu-appbar'
           anchorEl={anchorElUser}
           anchorOrigin={{
@@ -42,18 +42,18 @@ const HeaderUserMenu = ({
           open={Boolean(anchorElUser)}
           onClose={handleCloseUserMenu}
         >
-          <MenuItem key={'settings'} onClick={handleOpenSettingsModal}>
-            <SettingsIcon sx={{ mr: 1 }}></SettingsIcon>
+          <MenuItem key='settings' onClick={handleOpenSettingsModal}>
+            <SettingsIcon sx={{mr: 1}} />
             <Typography textAlign='center'>Настройки</Typography>
           </MenuItem>
-          <MenuItem key={'logout'} onClick={handleLogout}>
-            <LogoutIcon sx={{ mr: 1 }}></LogoutIcon>
+          <MenuItem key='logout' onClick={handleLogout}>
+            <LogoutIcon sx={{mr: 1}} />
             <Typography textAlign='center'>Выйти</Typography>
           </MenuItem>
         </Menu>
       </Box>
     </div>
   );
-};
+}
 
 export default HeaderUserMenu;

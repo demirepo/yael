@@ -1,0 +1,87 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true,
+    "jest/globals": true
+  },
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaVersion": "latest",
+    "ecmaFeatures": {"jsx": true},
+    "sourceType": "module",
+    "project": ["./tsconfig.json"]
+  },
+
+  "plugins": ["react", "jest", "react-hooks", "@typescript-eslint", "prettier"],
+
+  "extends": [
+    "react-app",
+    "react-app/jest",
+    "plugin:react/jsx-runtime",
+    "plugin:react-hooks/recommended",
+    "airbnb",
+    // "airbnb-typescript",
+    "plugin:import/recommended",
+    "plugin:import/typescript",
+    "plugin:prettier/recommended"
+  ],
+  "overrides": [],
+
+  "rules": {
+    "comma-dangle": ["warn", "always-multiline"],
+    "@typescript-eslint/comma-dangle": "off",
+    "space-before-function-paren": ["off"],
+    "@typescript-eslint/member-delimiter-style": "warn",
+    "semi": ["warn", "always", {"omitLastInOneLineBlock": true}],
+    "quotes": [
+      "warn",
+      "single",
+      {"avoidEscape": true, "allowTemplateLiterals": true}
+    ],
+    "jsx-quotes": ["warn", "prefer-single"],
+    "prefer-const": [
+      "error",
+      {
+        "destructuring": "any",
+        "ignoreReadBeforeAssign": false
+      }
+    ],
+    "no-unused-vars": "warn",
+    "no-unused-expressions": "warn",
+    "import/prefer-default-export": "off",
+    "import/order": [
+      "warn",
+      {
+        "groups": [
+          "builtin",
+          "external",
+          "internal",
+          "parent",
+          "sibling",
+          "index",
+          "object",
+          "type"
+        ],
+        "newlines-between": "always-and-inside-groups"
+      }
+    ],
+    "import/extensions": [
+      "error",
+      "ignorePackages",
+      {
+        "js": "never",
+        "mjs": "never",
+        "jsx": "never",
+        "ts": "never",
+        "tsx": "never"
+      }
+    ],
+    "react/react-in-jsx-scope": "off",
+    "react/jsx-filename-extension": "off",
+    "no-irregular-whitespace": "off",
+    "prefer-regex-literals": "off",
+    "@typescript-eslint/semi": "off",
+    "@typescript-eslint/explicit-function-return-type": "off",
+    "@typescript-eslint/restrict-template-expressions": "off"
+  }
+}

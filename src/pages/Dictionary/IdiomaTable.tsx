@@ -1,4 +1,4 @@
-import { MoreVert } from '@mui/icons-material';
+import {MoreVert} from '@mui/icons-material';
 import {
   IconButton,
   Paper,
@@ -10,7 +10,7 @@ import {
   TableRow,
   Tooltip,
 } from '@mui/material';
-import { Box } from '@mui/system';
+import Box from '@mui/material/Box';
 
 interface Wod {
   id: number;
@@ -19,14 +19,14 @@ interface Wod {
   dst_extended: string;
 }
 
-const IdiomaTable = ({ wods, chooseClicked }: any) => {
+function IdiomaTable({wods, chooseClicked}: any) {
   return (
-    <TableContainer sx={{ mt: 1 }} component={Paper} elevation={5}>
-      <Table sx={{ minWidth: 650 }} aria-label='simple table'>
+    <TableContainer sx={{mt: 1}} component={Paper} elevation={5}>
+      <Table sx={{minWidth: 650}} aria-label='simple table'>
         <TableHead>
-          <TableRow sx={{ borderBottom: '2px solid black' }}>
+          <TableRow sx={{borderBottom: '2px solid black'}}>
             <TableCell>Id</TableCell>
-            <TableCell sx={{ pr: 20 }}>Идиома</TableCell>
+            <TableCell sx={{pr: 20}}>Идиома</TableCell>
             <TableCell>Перевод</TableCell>
             <TableCell>Дополнительный перевод</TableCell>
           </TableRow>
@@ -39,9 +39,9 @@ const IdiomaTable = ({ wods, chooseClicked }: any) => {
               onClick={chooseClicked}
             >
               <TableCell>{el.id}</TableCell>
-              <TableCell sx={{ display: 'flex', alignItems: 'center' }}>
+              <TableCell sx={{display: 'flex', alignItems: 'center'}}>
                 {el.src}
-                <Box sx={{ ml: 'auto' }}>
+                <Box sx={{ml: 'auto'}}>
                   <Tooltip
                     title='Операции'
                     enterDelay={1000}
@@ -50,7 +50,7 @@ const IdiomaTable = ({ wods, chooseClicked }: any) => {
                     onClick={chooseClicked}
                   >
                     <IconButton>
-                      <MoreVert></MoreVert>
+                      <MoreVert />
                     </IconButton>
                   </Tooltip>
                 </Box>
@@ -63,6 +63,6 @@ const IdiomaTable = ({ wods, chooseClicked }: any) => {
       </Table>
     </TableContainer>
   );
-};
+}
 
 export default IdiomaTable;

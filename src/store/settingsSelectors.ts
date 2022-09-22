@@ -1,4 +1,3 @@
-import { RootState } from './store';
+import {RootState} from './store';
 
-export const getServerAddress = (state: RootState) =>
-  state.settings.serverAddress;
+export const getServerAddress = (state: RootState) => state.settings.serverAddress;

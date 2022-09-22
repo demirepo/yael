@@ -1,8 +1,9 @@
-import React, { useRef, useState } from 'react';
+import {useRef, useState} from 'react';
+
 import style from './RoundMenuButton.module.css';
 
 export default function RoundMenuButton() {
-  let [buttonPressed, setButtonPressed] = useState(false);
+  const [buttonPressed, setButtonPressed] = useState(false);
   const [menuActive, setMenuActive] = useState(false);
   const menuActiveRef = useRef(false);
   menuActiveRef.current = menuActive;
@@ -13,7 +14,7 @@ export default function RoundMenuButton() {
 
   const handleMouseLeave = () => {
     setTimeout(() => {
-      if (menuActiveRef.current === false) {
+      if (!menuActiveRef.current) {
         setButtonPressed(false);
       }
     }, 2000);
@@ -27,9 +28,7 @@ export default function RoundMenuButton() {
   return (
     <div className={style.wrapper}>
       <button
-        className={
-          buttonPressed ? `${style.circle} ${style.move3}` : style.circle
-        }
+        className={buttonPressed ? `${style.circle} ${style.move3}` : style.circle}
         data-menu-item
         onMouseLeave={handleMouseLeave}
         onMouseEnter={handleMouseEnter}
@@ -39,9 +38,7 @@ export default function RoundMenuButton() {
       </button>
 
       <button
-        className={
-          buttonPressed ? `${style.circle} ${style.move2}` : style.circle
-        }
+        className={buttonPressed ? `${style.circle} ${style.move2}` : style.circle}
         data-menu-item
         onMouseLeave={handleMouseLeave}
         onMouseEnter={handleMouseEnter}
@@ -51,9 +48,7 @@ export default function RoundMenuButton() {
       </button>
 
       <button
-        className={
-          buttonPressed ? `${style.circle} ${style.move1}` : style.circle
-        }
+        className={buttonPressed ? `${style.circle} ${style.move1}` : style.circle}
         onMouseLeave={handleMouseLeave}
         onMouseEnter={handleMouseEnter}
         onClick={handleClick}

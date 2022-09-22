@@ -1,12 +1,12 @@
-export const WORD_CLASS = "word";
-export const SELECTED_SPAN_ID = "selected-word";
-export const CONTEXT_MODAL_CLASS = "word-context";
-export const OPENING_QUOTES = ['"', "«", "“"];
-export const CLOSING_QUOTES = ['"', "»", "”"];
+export const WORD_CLASS = 'word';
+export const SELECTED_SPAN_ID = 'selected-word';
+export const CONTEXT_MODAL_CLASS = 'word-context';
+export const OPENING_QUOTES = ['"', '«', '“'];
+export const CLOSING_QUOTES = ['"', '»', '”'];
 
 export function clickHandler(e) {
   const modal = document.getElementById(CONTEXT_MODAL_CLASS);
-  const { span } = getSpanInfoFromClick(e) || {};
+  const {span} = getSpanInfoFromClick(e) || {};
   const isModalClicked = e.target.closest(`#${CONTEXT_MODAL_CLASS}`);
 
   if (modal && !isModalClicked) closeModal();
@@ -19,13 +19,13 @@ export function clickHandler(e) {
 }
 
 export function spanify(container) {
-  let paragraphs = document.querySelector(container).children;
+  const paragraphs = document.querySelector(container).children;
   [...paragraphs].forEach((element) => {
     element.innerHTML = element.innerHTML
-      .replace(/\n/g, " ")
+      .replace(/\n/g, ' ')
       .split(/[ ]/)
-      .map((el) => (el === "" ? el : `<span class=${WORD_CLASS}>${el}</span>`))
-      .join(" ");
+      .map((el) => (el === '' ? el : `<span class=${WORD_CLASS}>${el}</span>`))
+      .join(' ');
   });
 }
 
@@ -46,7 +46,7 @@ export function getSentanceAroundWord(node) {
   // ищем первое слово предложения
   for (let i = wordIndex; i >= 0; i--) {
     let text = siblings[i].textContent;
-    //проверяем, что начинается с заглавной, учитывая возможные кавычки первым символом
+    // проверяем, что начинается с заглавной, учитывая возможные кавычки первым символом
     const isCapital = (() => {
       if (OPENING_QUOTES.includes(text[0])) text = text.slice(1);
       return /^[a-zA-zа-яА-Я]+/.test(text) && text[0] === text[0].toUpperCase();
@@ -67,7 +67,7 @@ export function getSentanceAroundWord(node) {
   return siblings
     .slice(firstWordIndex, lastWordIndex + 1)
     .map((el) => el.textContent)
-    .join(" ");
+    .join(' ');
 }
 
 export function getWordContext(span) {
@@ -80,7 +80,7 @@ export function getWordContext(span) {
         getLettersOnly(el.textContent).toLowerCase() ===
         getLettersOnly(span.textContent).toLowerCase()
       ) {
-        contextArr.push({ index, span: el, text: getSentanceAroundWord(el) });
+        contextArr.push({index, span: el, text: getSentanceAroundWord(el)});
         index++;
       }
     }
@@ -89,17 +89,17 @@ export function getWordContext(span) {
 }
 
 export function displayWordContextModal(span, contextArr) {
-  const modal = document.createElement("div");
-  let spanText = span.textContent;
-  const spanTextRx = new RegExp(`\\b(${getLettersOnly(spanText)})\\b`, "i");
+  const modal = document.createElement('div');
+  const spanText = span.textContent;
+  const spanTextRx = new RegExp(`\\b(${getLettersOnly(spanText)})\\b`, 'i');
   let examples = contextArr.map((el) => {
     const taggedText = el.text.replace(
       spanTextRx,
-      "<strong>$1</strong>" // слово began не выделяется, как и разные регистры
+      '<strong>$1</strong>', // слово began не выделяется, как и разные регистры
     );
     return `<p data-span-id="${el.index}">${taggedText}</p>`;
   });
-  examples = [...new Set(examples)].join("<hr>");
+  examples = [...new Set(examples)].join('<hr>');
 
   modal.id = CONTEXT_MODAL_CLASS;
   modal.innerHTML = `
@@ -110,13 +110,11 @@ export function displayWordContextModal(span, contextArr) {
     `;
   document.body.appendChild(modal);
 
-  document.addEventListener("click", (e) => {
-    const paragraph = e.target.closest("[data-span-id]");
+  document.addEventListener('click', (e) => {
+    const paragraph = e.target.closest('[data-span-id]');
     if (!paragraph) return;
 
-    let spanObj = contextArr.find((el) => {
-      return el["index"] === +paragraph.dataset.spanId;
-    });
+    const spanObj = contextArr.find((el) => el.index === +paragraph.dataset.spanId);
     if (spanObj) {
       spanObj.span.scrollIntoView();
       closeModal();
@@ -126,7 +124,7 @@ export function displayWordContextModal(span, contextArr) {
   });
 }
 export function getLettersOnly(str) {
-  return str.replace(/[,.:;…"»”«“]/g, "");
+  return str.replace(/[,.:;…"»”«“]/g, '');
 }
 
 export function selectSpan(span) {
@@ -136,13 +134,13 @@ export function selectSpan(span) {
 }
 
 export function unselectSpan(span) {
-  span.removeAttribute("id");
+  span.removeAttribute('id');
 }
 
 export function getChildIndexInParent(child) {
   let index = 0;
-  let parent = child.parentNode;
-  for (let el of parent.children) {
+  const parent = child.parentNode;
+  for (const el of parent.children) {
     if (el === child) return index;
     index++;
   }
@@ -156,7 +154,7 @@ export function getSpanInfoFromClick(e) {
   const paragraphIdx = getChildIndexInParent(paragraph);
   const offset = getChildIndexInParent(span);
 
-  return { span, paragraphIdx, offset };
+  return {span, paragraphIdx, offset};
 }
 
 export function closeModal() {

@@ -1,7 +1,7 @@
 import React from 'react';
-import { Button, Chip, Grid, Stack, Typography } from '@mui/material';
+import {Button, Chip, Grid, Stack, Typography} from '@mui/material';
 
-const Examples = ({ examples }) => {
+function Examples({examples}) {
   const [show, setShow] = React.useState(10);
   const [selectedChip, setSelectedChip] = React.useState(-1);
 
@@ -12,16 +12,16 @@ const Examples = ({ examples }) => {
   return (
     <div>
       <Stack>
-        <Grid mb={4} gap={'10px'}>
+        <Grid mb={4} gap='10px'>
           {/* ------------------------    первый таб */}
 
           <Chip
             item='true'
             id={-1}
-            label={'Все'}
-            key={'all-translations'}
+            label='Все'
+            key='all-translations'
             variant={selectedChip === -1 ? 'filled' : 'outlined'}
-            sx={{ cursor: 'pointer' }}
+            sx={{cursor: 'pointer'}}
             onClick={selectChip}
           />
 
@@ -41,7 +41,7 @@ const Examples = ({ examples }) => {
                 }
                 key={el.index}
                 variant={selectedChip === index ? 'filled' : 'outlined'}
-                sx={{ cursor: 'pointer' }}
+                sx={{cursor: 'pointer'}}
                 onClick={selectChip}
               />
             );
@@ -50,18 +50,17 @@ const Examples = ({ examples }) => {
 
         {/* ------------------------    список примеров */}
 
-        <ul key={'examples'} style={{ listStyle: 'none' }}>
+        <ul key='examples' style={{listStyle: 'none'}}>
           {examples.examples
             .filter((el, index) => {
               if (selectedChip === -1 && index <= show) {
                 return 1;
-              } else {
-                return el.tabIndex === selectedChip && index <= show;
               }
+              return el.tabIndex === selectedChip && index <= show;
             })
             .map((item) => {
               return (
-                <li key={item.id} style={{ marginBottom: '20px' }}>
+                <li key={item.id} style={{marginBottom: '20px'}}>
                   <Typography component='h5' variant='h6'>
                     {item.src}
                   </Typography>
@@ -77,6 +76,6 @@ const Examples = ({ examples }) => {
       </Stack>
     </div>
   );
-};
+}
 
 export default Examples;

@@ -3,18 +3,21 @@ import AppBar from '@mui/material/AppBar';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
-import { getAuth, signOut } from 'firebase/auth';
-import { useNavigate } from 'react-router';
+import {getAuth, signOut} from 'firebase/auth';
+import {useNavigate} from 'react-router-dom';
+
+import SettingsModal from '../SettingsModal/SettingsModal';
+
+import {useAppSelector} from '../../hooks/redux';
+
+import {getServerAddress} from '../../store/settingsSelectors';
 
 import HeaderLogo from './HeaderLogo';
 import HeaderMenu from './HeaderMenu';
 import HeaderLinks from './HeaderLinks';
 import HeaderUserMenu from './HeaderUserMenu';
-import SettingsModal from '../SettingsModal/SettingsModal';
-import { getServerAddress } from './../../store/settingsSelectors';
-import { useAppSelector } from '../../hooks/redux';
 
-const Header = ({ isAuth }) => {
+function Header({isAuth}) {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
   const [anchorElUser, setAnchorElUser] = React.useState(null);
   const [showSettingsModal, setShowSettingsModal] = React.useState(false);
@@ -82,7 +85,7 @@ const Header = ({ isAuth }) => {
             href=''
             sx={{
               mr: 2,
-              display: { xs: 'flex', md: 'none' },
+              display: {xs: 'flex', md: 'none'},
               flexGrow: 1,
               fontFamily: 'roboto',
               fontWeight: 700,
@@ -114,5 +117,5 @@ const Header = ({ isAuth }) => {
       />
     </AppBar>
   );
-};
+}
 export default Header;

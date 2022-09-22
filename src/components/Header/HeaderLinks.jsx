@@ -1,8 +1,7 @@
-import { Box, Button } from '@mui/material';
-import React from 'react';
-import { Link } from 'react-router-dom';
+import {Box, Button} from '@mui/material';
+import {Link} from 'react-router-dom';
 
-const HeaderLinks = ({ handleCloseNavMenu }) => {
+function HeaderLinks({handleCloseNavMenu}) {
   return (
     <>
       {' '}
@@ -11,48 +10,48 @@ const HeaderLinks = ({ handleCloseNavMenu }) => {
           flexGrow: 1,
           justifyContent: 'center',
           gap: '50px',
-          display: { xs: 'none', md: 'flex' },
+          display: {xs: 'none', md: 'flex'},
         }}
       >
         <Button
           component={Link}
           to='/'
-          key={'Поиск'}
+          key='Поиск'
           onClick={handleCloseNavMenu}
-          sx={{ my: 2, color: 'white', display: 'block' }}
+          sx={{my: 2, color: 'white', display: 'block'}}
         >
-          {'Поиск'}
+          Поиск
         </Button>
         <Button
           component={Link}
           to='/dictionary'
-          key={'Словарь'}
+          key='Словарь'
           onClick={handleCloseNavMenu}
-          sx={{ my: 2, color: 'white', display: 'block' }}
+          sx={{my: 2, color: 'white', display: 'block'}}
         >
-          {'Словарь'}
+          Словарь
         </Button>
         <Button
           component={Link}
           to='/training'
-          key={'Тренировки'}
+          key='Тренировки'
           onClick={handleCloseNavMenu}
-          sx={{ my: 2, color: 'white', display: 'block' }}
+          sx={{my: 2, color: 'white', display: 'block'}}
         >
-          {'Тренировки'}
+          Тренировки
         </Button>
         <Button
           component={Link}
           to='/reader'
-          key={'Читалка'}
+          key='Читалка'
           onClick={handleCloseNavMenu}
-          sx={{ my: 2, color: 'white', display: 'block' }}
+          sx={{my: 2, color: 'white', display: 'block'}}
         >
-          {'Читалка'}
+          Читалка
         </Button>
       </Box>
     </>
   );
-};
+}
 
 export default HeaderLinks;

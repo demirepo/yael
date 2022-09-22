@@ -1,7 +1,7 @@
-import React from 'react';
 // import AuthForm from "./AuthForm";
-import { useDispatch } from 'react-redux';
-import { signupThunk } from '../../store/userSlice';
+import {useDispatch} from 'react-redux';
+
+import {signupThunk} from '../../store/userSlice';
 // import { useNavigate } from "react-router";
 
 export default function Signup() {
@@ -12,7 +12,7 @@ export default function Signup() {
   signup();
 
   return (
-    <div style={{ padding: 15 }}>
+    <div style={{padding: 15}}>
       Для регистрации заполните форму:
       {/* <AuthForm buttonText="Sign up" handleSubmit={signup} /> */}
     </div>

@@ -1,4 +1,6 @@
-import { createSlice } from '@reduxjs/toolkit';
+/* eslint no-param-reassign: 0 */
+
+import {createSlice} from '@reduxjs/toolkit';
 
 interface IAjax {
   sid: string | undefined;
@@ -24,6 +26,6 @@ const ajaxSlice = createSlice({
   },
 });
 
-export const { actions, reducer } = ajaxSlice;
-export const { setSession } = actions;
+export const {actions, reducer} = ajaxSlice;
+export const {setSession} = actions;
 export default reducer;

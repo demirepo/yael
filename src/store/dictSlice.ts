@@ -1,10 +1,14 @@
-import { wordApi } from '../api/api';
-import { createSlice } from '@reduxjs/toolkit';
-import { AppDispatch } from './store';
+/* eslint no-param-reassign: 0 */
+
+import {createSlice} from '@reduxjs/toolkit';
+
+import {wordApi} from '../api/api';
+
+import {AppDispatch} from './store';
 
 interface IDict {
-  translation: Object;
-  examples: Object;
+  translation: any;
+  examples: any;
 }
 
 const initialState: IDict = {
@@ -25,20 +29,28 @@ const dictSlice = createSlice({
   },
 });
 
-export const { actions, reducer } = dictSlice;
+export const {actions, reducer} = dictSlice;
 
-export const { setTranslation, setExamples } = actions;
+export const {setTranslation, setExamples} = actions;
 
 export default reducer;
 
 export const getTranslationThunk =
   (text: string, sid: string) => async (dispatch: AppDispatch) => {
-    const translation = await wordApi.getTrans(text, sid);
-    await dispatch(setTranslation(translation));
+    try {
+      const translation = await wordApi.getTrans(text, sid);
+      dispatch(setTranslation(translation));
+    } catch (error) {
+      console.log('Error while getting translation: ', error);
+    }
   };
 
 export const getExamplesThunk =
   (text: string, sid: string) => async (dispatch: AppDispatch) => {
-    const examples = await wordApi.getExamples(text, sid);
-    await dispatch(setExamples(examples));
+    try {
+      const examples = await wordApi.getExamples(text, sid);
+      dispatch(setExamples(examples));
+    } catch (error) {
+      console.log('Error while getting examples: ', error);
+    }
   };

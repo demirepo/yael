@@ -1,4 +1,5 @@
-import { combineReducers, configureStore } from '@reduxjs/toolkit';
+import {combineReducers, configureStore} from '@reduxjs/toolkit';
+
 import modalSlice from './modalSlice';
 import ajaxSlice from './sessionSlice';
 import userSlice from './userSlice';

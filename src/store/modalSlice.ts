@@ -1,30 +1,34 @@
-import { wordApi } from '../api/api';
-import { createSlice, PayloadAction } from '@reduxjs/toolkit';
-import { AppDispatch } from './store';
+/* eslint no-param-reassign: 0 */
+
+import {createSlice, PayloadAction} from '@reduxjs/toolkit';
+
+import {wordApi} from '../api/api';
+
+import {AppDispatch} from './store';
 
 export interface IModal {
   showContextModal: boolean;
   showSettingsModal: boolean;
   buttonMenu: boolean;
-  word: { examples: any };
+  word: {examples: any};
 }
 
 const initialState: IModal = {
   showContextModal: false,
   showSettingsModal: false,
   buttonMenu: false,
-  word: { examples: [] },
+  word: {examples: []},
 };
 
-export const modalSlice = createSlice({
+const modalSlice = createSlice({
   name: 'modal',
   initialState,
   reducers: {
     toggleContextModal: (state) => {
-      state.showContextModal = state.showContextModal ? false : true;
+      state.showContextModal = !state.showContextModal;
     },
     toggleSettingsModal: (state) => {
-      state.showSettingsModal = state.showSettingsModal ? false : true;
+      state.showSettingsModal = !state.showSettingsModal;
     },
     activateButtonMenu: (state) => {
       state.buttonMenu = true;
@@ -38,9 +42,9 @@ export const modalSlice = createSlice({
   },
 });
 
-export const { actions, reducer } = modalSlice;
+export const {actions, reducer} = modalSlice;
 
-export default modalSlice.reducer;
+export default reducer;
 
 export const getTranslation =
   (text: string, sid: string) => async (dispatch: AppDispatch) => {

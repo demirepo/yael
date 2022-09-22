@@ -1,11 +1,14 @@
-import { createSlice } from '@reduxjs/toolkit';
+/* eslint no-param-reassign: 0 */
+
+import {createSlice} from '@reduxjs/toolkit';
 import {
   getAuth,
   createUserWithEmailAndPassword,
   signInWithEmailAndPassword,
   onAuthStateChanged,
 } from 'firebase/auth';
-import { AppDispatch } from './store';
+
+import {AppDispatch} from './store';
 
 interface IUser {
   loggedUser: {
@@ -36,8 +39,8 @@ const userSlice = createSlice({
   },
 });
 
-export const { actions, reducer } = userSlice;
-export const { setUser } = actions;
+export const {actions, reducer} = userSlice;
+export const {setUser} = actions;
 export default reducer;
 
 export const signupThunk =
@@ -45,8 +48,8 @@ export const signupThunk =
     const auth = getAuth();
     createUserWithEmailAndPassword(auth, email, pass)
       .then((userCredential) => {
-        const { uid, email } = userCredential.user;
-        dispatch(setUser({ uid, email }));
+        const {uid, email} = userCredential.user;
+        dispatch(setUser({uid, email}));
         alert('Пользователь создан. Добро пожаловать!');
       })
       .catch((error) => {
@@ -60,8 +63,8 @@ export const signinThunk =
     const auth = getAuth();
     signInWithEmailAndPassword(auth, email, pass)
       .then((userCredential) => {
-        const { uid, email } = userCredential.user;
-        dispatch(setUser({ uid, email }));
+        const {uid, email} = userCredential.user;
+        dispatch(setUser({uid, email}));
         alert('Пользователь авторизован. Добро пожаловать!');
       })
       .catch((error) => {
@@ -73,9 +76,9 @@ export const signinThunk =
 export const checkAuth = () => (dispatch: AppDispatch) => {
   const auth = getAuth();
   onAuthStateChanged(auth, (user) => {
-    if (user) {
-      const { uid, email } = user;
-      dispatch(setUser({ uid, email }));
+    if (user != null) {
+      const {uid, email} = user;
+      dispatch(setUser({uid, email}));
     } else {
       // User is signed out
       // ...

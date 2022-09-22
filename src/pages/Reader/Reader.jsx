@@ -1,14 +1,14 @@
-import React from 'react';
-import { Routes } from 'react-router';
+import {Routes} from 'react-router-dom';
+
 import RoundMenuButton from '../../components/RoundMenuButton/RoundMenuButton';
 
-const Dictionary = () => {
+function Dictionary() {
   return (
     <div className='wrapper'>
-      <Routes></Routes>
+      <Routes />
       <RoundMenuButton />
     </div>
   );
-};
+}
 
 export default Dictionary;
