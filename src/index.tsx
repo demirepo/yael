@@ -9,6 +9,7 @@ import './index.css';
 import {store} from './store/store';
 
 const container = document.getElementById('root');
+
 // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
 const root = createRoot(container!);
 

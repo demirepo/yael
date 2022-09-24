@@ -1,8 +1,8 @@
 import {Route, Routes} from 'react-router-dom';
 
 import './App.css';
-import Signup from './components/Login/Signup';
-import Signin from './pages/Signin';
+import Signup from './pages/Signup/Signup';
+import Signin from './pages/Signin/Signin';
 import {checkAuth} from './store/userSlice';
 import Search from './pages/Search/Search';
 import Header from './components/Header/Header';
@@ -14,7 +14,7 @@ import {useAppDispatch, useAppSelector} from './hooks/redux';
 function App() {
   const dispatch = useAppDispatch();
   const isAuth = !!useAppSelector((state) => state.user.loggedUser.email);
-  !isAuth && dispatch(checkAuth());
+  if (!isAuth) dispatch(checkAuth());
 
   return (
     <>

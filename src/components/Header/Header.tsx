@@ -17,7 +17,11 @@ import HeaderMenu from './HeaderMenu';
 import HeaderLinks from './HeaderLinks';
 import HeaderUserMenu from './HeaderUserMenu';
 
-function Header({isAuth}) {
+interface HeaderProps {
+  isAuth: boolean;
+}
+
+function Header({isAuth}: HeaderProps) {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
   const [anchorElUser, setAnchorElUser] = React.useState(null);
   const [showSettingsModal, setShowSettingsModal] = React.useState(false);
@@ -38,14 +42,18 @@ function Header({isAuth}) {
       });
   };
 
-  const handleOpenNavMenu = (event) => {
+  const onSubmit = (e: any) => {
+    console.log(e);
+  };
+
+  const handleOpenNavMenu = (event: any) => {
     setAnchorElNav(event.currentTarget);
   };
   const handleCloseNavMenu = () => {
     setAnchorElNav(null);
   };
 
-  const handleOpenUserMenu = (event) => {
+  const handleOpenUserMenu = (event: any) => {
     setAnchorElUser(event.currentTarget);
   };
   const handleCloseUserMenu = () => {
@@ -104,7 +112,6 @@ function Header({isAuth}) {
             handleCloseUserMenu={handleCloseUserMenu}
             anchorElUser={anchorElUser}
             handleLogout={handleLogout}
-            handleOpenSettings={handleOpenSettingsModal}
             handleOpenSettingsModal={handleOpenSettingsModal}
           />
         </Toolbar>
@@ -114,6 +121,7 @@ function Header({isAuth}) {
         showSettingsModal={showSettingsModal}
         handleCloseSettingsModal={handleCloseSettingsModal}
         serverAddress={serverAddress}
+        onSubmit={onSubmit}
       />
     </AppBar>
   );

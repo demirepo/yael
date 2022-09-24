@@ -1,4 +1,4 @@
-export function getHighlightedFragment(text) {
+export function getHighlightedFragment(text: string) {
   const queryRegx = new RegExp('<(.+?)>', 'gi');
   return text.replace(
     queryRegx,

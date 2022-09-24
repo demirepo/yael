@@ -3,7 +3,7 @@ import Modal from '@mui/material/Modal';
 import TextField from '@mui/material/TextField';
 import {useForm} from 'react-hook-form';
 import Typography from '@mui/material/Typography';
-import {Divider, Grid, Stack} from '@mui/material';
+import {Button, Divider, Grid, Stack} from '@mui/material';
 
 const style = {
   position: 'absolute',
@@ -20,16 +20,16 @@ interface SettingsModalProps {
   showSettingsModal: boolean;
   serverAddress: string;
   handleCloseSettingsModal: () => void;
+  onSubmit: any;
 }
 
 function SettingsModal({
   showSettingsModal,
   handleCloseSettingsModal,
   serverAddress,
+  onSubmit,
 }: SettingsModalProps) {
   const {register, handleSubmit} = useForm();
-
-  const onSubmit = (data: any) => console.log(data);
 
   return (
     <form onSubmit={handleSubmit(onSubmit)}>
@@ -43,13 +43,14 @@ function SettingsModal({
             <TextField
               variant='outlined'
               defaultValue={serverAddress}
-              {...register('example')}
+              {...register('serverAddress')}
             />
             <TextField
               variant='outlined'
               defaultValue={serverAddress}
               {...register('example')}
             />
+            <Button type='submit'>Сохранить</Button>
           </Stack>
         </Box>
       </Modal>

@@ -3,7 +3,17 @@ import {Box, IconButton, Menu, MenuItem, Typography} from '@mui/material';
 import MenuIcon from '@mui/icons-material/Menu';
 import AdbIcon from '@mui/icons-material/Adb';
 
-function HeaderMenu({handleOpenNavMenu, anchorElNav, handleCloseNavMenu}) {
+interface HeaderMenuProps {
+  handleOpenNavMenu: (event: any) => void;
+  anchorElNav: HTMLElement | null;
+  handleCloseNavMenu: (event: any) => void;
+}
+
+function HeaderMenu({
+  handleOpenNavMenu,
+  anchorElNav,
+  handleCloseNavMenu,
+}: HeaderMenuProps) {
   return (
     <>
       <Box sx={{flexGrow: 1, display: {xs: 'flex', md: 'none'}}}>

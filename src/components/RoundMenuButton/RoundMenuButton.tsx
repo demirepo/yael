@@ -9,7 +9,7 @@ export default function RoundMenuButton() {
   menuActiveRef.current = menuActive;
 
   const handleClick = () => {
-    buttonPressed ? setButtonPressed(false) : setButtonPressed(true);
+    return buttonPressed ? setButtonPressed(false) : setButtonPressed(true);
   };
 
   const handleMouseLeave = () => {
@@ -33,6 +33,7 @@ export default function RoundMenuButton() {
         onMouseLeave={handleMouseLeave}
         onMouseEnter={handleMouseEnter}
         onClick={handleClick}
+        type='button'
       >
         Menu3
       </button>
@@ -43,6 +44,7 @@ export default function RoundMenuButton() {
         onMouseLeave={handleMouseLeave}
         onMouseEnter={handleMouseEnter}
         onClick={handleClick}
+        type='button'
       >
         Menu2
       </button>
@@ -53,6 +55,7 @@ export default function RoundMenuButton() {
         onMouseEnter={handleMouseEnter}
         onClick={handleClick}
         data-menu-item
+        type='button'
       >
         Menu1
       </button>
@@ -63,6 +66,7 @@ export default function RoundMenuButton() {
         onMouseLeave={handleMouseLeave}
         onMouseEnter={handleMouseEnter}
         onClick={handleClick}
+        type='button'
       >
         Menu
       </button>

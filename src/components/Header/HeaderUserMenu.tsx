@@ -10,13 +10,21 @@ import {
 import LogoutIcon from '@mui/icons-material/Logout';
 import SettingsIcon from '@mui/icons-material/Settings';
 
+interface HeaderUserMenuProps {
+  handleOpenUserMenu: (event: any) => void;
+  anchorElUser: HTMLElement | null;
+  handleCloseUserMenu: () => void;
+  handleLogout: () => void;
+  handleOpenSettingsModal: () => void;
+}
+
 function HeaderUserMenu({
   handleOpenUserMenu,
   anchorElUser,
   handleCloseUserMenu,
   handleLogout,
   handleOpenSettingsModal,
-}) {
+}: HeaderUserMenuProps) {
   return (
     <div>
       <Box sx={{flexGrow: 0}}>

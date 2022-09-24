@@ -1,12 +1,21 @@
-import React from 'react';
+import React, {MouseEvent} from 'react';
 import {Button, Chip, Grid, Stack, Typography} from '@mui/material';
 
-function Examples({examples}) {
+interface ExamplesProps {
+  tabs: any;
+  examples: any;
+}
+
+function Examples({examples}: ExamplesProps) {
   const [show, setShow] = React.useState(10);
   const [selectedChip, setSelectedChip] = React.useState(-1);
 
-  const selectChip = (e) => {
-    setSelectedChip(+e.target.closest('.MuiChip-root').id);
+  const selectChip = (e: MouseEvent<HTMLElement>) => {
+    const target = e.target as HTMLElement;
+    if (target.closest('.MuiChip-root')) {
+      const root = target.closest('.MuiChip-root');
+      if (root) setSelectedChip(+root.id);
+    }
   };
 
   return (
@@ -14,25 +23,21 @@ function Examples({examples}) {
       <Stack>
         <Grid mb={4} gap='10px'>
           {/* ------------------------    первый таб */}
-
           <Chip
-            item='true'
-            id={-1}
+            id='n-1'
             label='Все'
             key='all-translations'
             variant={selectedChip === -1 ? 'filled' : 'outlined'}
             sx={{cursor: 'pointer'}}
             onClick={selectChip}
           />
-
           {/* ------------------------    остальные табы */}
-
-          {examples.tabs.map((el, index) => {
+          {examples.tabs.map((el: any, index: number) => {
             return (
               <Chip
-                item='true'
-                id={index}
+                id={`n${index}`}
                 label={
+                  // eslint-disable-next-line no-nested-ternary
                   el.translation.other
                     ? 'другие переводы'
                     : el.translation.idiom
@@ -52,13 +57,13 @@ function Examples({examples}) {
 
         <ul key='examples' style={{listStyle: 'none'}}>
           {examples.examples
-            .filter((el, index) => {
+            .filter((el: any, index: number) => {
               if (selectedChip === -1 && index <= show) {
                 return 1;
               }
               return el.tabIndex === selectedChip && index <= show;
             })
-            .map((item) => {
+            .map((item: any) => {
               return (
                 <li key={item.id} style={{marginBottom: '20px'}}>
                   <Typography component='h5' variant='h6'>

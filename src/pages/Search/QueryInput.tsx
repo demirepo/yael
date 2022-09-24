@@ -1,6 +1,12 @@
 import {Button, Grid, TextField} from '@mui/material';
 
-function QueryInput({handleClick, setQuery, query}) {
+interface QueryInputProps {
+  handleClick: () => void;
+  setQuery: (query: string) => void;
+  query: string;
+}
+
+function QueryInput({handleClick, setQuery, query}: QueryInputProps) {
   return (
     <div>
       <Grid

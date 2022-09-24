@@ -23,8 +23,6 @@ function Search() {
   const examples = useSelector(dictSelectors.getExamples);
   const session = useSelector(dictSelectors.getSession);
 
-  const examplesRef = React.useRef();
-
   const handleClick = () => {
     if (query === '') return;
     dispatch(getTranslationThunk(query, session));
@@ -33,16 +31,20 @@ function Search() {
 
   const showExamples = examples.examples && examples.examples.length !== 0;
 
-  React.useEffect(() => {
-    const examples = examplesRef.current?.children;
-    if (examples) {
-      for (const example of examples) {
-        for (const el of example.children) {
-          el.innerHTML = getHighlightedFragment(el.innerText);
-        }
-      }
-    }
-  });
+  // выделение запроса в найденном. не работает.
+  // возможно, надо использовать useLayoutEffect
+  // const examplesRef = React.useRef();
+
+  // React.useEffect(() => {
+  //   const examples = examplesRef.current?.children;
+  //   if (examples) {
+  //     for (const example of examples) {
+  //       for (const el of example.children) {
+  //         el.innerHTML = getHighlightedFragment(el.innerText);
+  //       }
+  //     }
+  //   }
+  // });
 
   return (
     <Container
